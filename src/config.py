@@ -65,6 +65,18 @@ SOURCES = {
                 "data. Brand/model/year/mileage/fuel parsed from the ad's tracking "
                 "metadata; province parsed from the ad location.",
     },
+    "publicitytop": {
+        "name": "Publicity Top (Thailand new-car sales rankings by brand & model)",
+        "site": "publicitytop.com",
+        "url": "https://publicitytop.com",
+        "country": "TH",
+        "note": "Publishes a monthly 'Thailand <Month> <Year>:' report with the full "
+                "brand ranking (Top ~45) and model ranking (Top ~206) as "
+                "concatenated text. A WordPress REST API enumerates every report. We "
+                "parse each into sales_monthly at level='maker'/'model', giving "
+                "Thailand a dense, Japan-style brand/model sales layer on top of the "
+                "Kaidee marketplace inventory.",
+    },
 }
 
 # --- News feeds ---------------------------------------------------------------

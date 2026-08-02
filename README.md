@@ -9,6 +9,7 @@ CSV/JSON. A scheduled GitHub Action refreshes it on the 1st of every month.
 | Country | Source | What it covers | Granularity |
 | --- | --- | --- | --- |
 | 🇹🇭 Thailand | Federation of Thai Industries (FTI) — figures republished in full by [AutoLife Thailand](https://autolifethailand.tv) | Total market + breakdown by powertrain (ICE / BEV / PHEV / REEV / HEV) and by pickup segment (1-ton, modified/PPV) | Monthly **and** year-to-date (YTD) |
+| 🇹🇭 Thailand | [Publicity Top](https://publicitytop.com) monthly "Thailand <Month> <Year>:" report | **Dense brand/model sales layer** — full brand ranking (Top ~45) + model ranking (Top ~206) parsed from the concatenated report text into `sales_monthly` at `level='maker'`/`model'. Gives Thailand a Japan-style per-brand/per-model sales table on top of the FTI totals. | Monthly |
 | 🇹🇭 Thailand | [Kaidee](https://www.kaidee.com/browse?categoryId=11) online classifieds marketplace | **High-volume inventory layer** — every car ad (used + new) as one row: brand, model, year, price, province, mileage, fuel. This is the marketplace-listings layer that mirrors the Japan project's carsensor/goo-net method (~9.5k clean car rows) | Live snapshot (per crawl) |
 | 🇻🇳 Vietnam | [VAMA](http://vama.org.vn) monthly sales report (model-level `Detail.pdf`) | Every model sold by a VAMA member, broken out by region (North / Central / South) + YTD | Monthly, model-level |
 | 🇹🇭🇻🇳 News | HeadlightMag, AutoLife Thailand, VnExpress ô-tô, Tuổi Trẻ Xe, Thanh Niên Xe (RSS) | New-model launches & market commentary | Rolling feed archive |
@@ -52,16 +53,25 @@ src/
   config.py          # sources, URLs, month maps, constants
   db.py              # SQLite schema + idempotent upserts
   export.py          # deterministic CSV/JSON + manifest export
-  run.py             # CLI: fetch | export | stats
+  analysis.py        # Japan-style analysis: charts (matplotlib) + markdown reports
+  run.py             # CLI: fetch | export | analysis | stats
   sources/
     base.py          # HTTP session, retry, HTML stripping, number parsing
     vama_vn.py       # Vietnam VAMA PDF parser
     fti_th.py        # Thailand FTI briefing parser
+    publicitytop_th.py # Thailand Publicity Top brand/model ranking parser
     kaidee_th.py     # Thailand Kaidee marketplace-listings scraper
     news_rss.py      # TH/VN news RSS parser
+reports/
+  README.md                   # index of all reports
+  thailand-market-review.md   # TH market structure + conclusions + embedded charts
+  vietnam-market-review.md    # VN market structure + conclusions + embedded charts
+  th-vs-vn-comparison.md      # cross-country comparison
+  data-quality.md             # per-table counts, coverage, provenance, sanity checks
 data/
   market.db          # SQLite warehouse (LOCAL working copy; not committed)
   csv/  json/        # exported artifacts (committed)
+  analysis/          # generated PNG charts embedded in reports/ (committed)
   manifest.json      # coverage + run summary
   raw/vama/          # downloaded Detail PDFs (not committed)
 ```
@@ -75,6 +85,7 @@ pip install -r requirements.txt
 python -m src.run fetch --full     # clean re-crawl of all history
 python -m src.run fetch            # incremental refresh (newest months only)
 python -m src.run export           # write CSV/JSON + manifest
+python -m src.run analysis         # build reports/ + data/analysis charts
 python -m src.run stats            # coverage summary
 ```
 
@@ -127,24 +138,58 @@ of `sales_monthly` so every listing is source-traceable:
 > `th_car_listings` is the high-volume, market-inventory layer, while
 > `sales_monthly` remains the structured new-car-sales facts.
 
-> **Thailand coverage is comprehensive across three layers** (mirroring the
+> **Thailand coverage is comprehensive across four layers** (mirroring the
 > Japan project's `used_cars` + `new_car_sales_brand` + news structure, and
-> Vietnam's `sales_monthly` + `news_articles`): (1) `sales_monthly` country=`TH`
-> — FTI monthly new-car sales by powertrain/segment; (2) `th_car_listings` —
-> Kaidee used/new-car marketplace inventory; (3) `news_articles` country=`TH` —
-> Thai new-car launch news. Total ≈ **9.6k rows** (≈9,575 listings + 51 sales +
-> 20 news).
->
-> **Volume ceiling (transparency):** Kaidee's server-rendered car browse is a
-> fixed window — it returns ~9,575 *distinct* car ads (≈440 pages) and then
-> cycles back to page 1; price/province-name filters are ignored by the SSR
-> payload, and per-province feeds are small disjoint slices of the same
-> aggregate. Thailand's other marketplaces were assessed and found not
-> publicly scrapeable (Carsome = reCAPTCHA wall; taladrod = locked API;
-> one2car = HTTP 403). So a single free scrapeable Thai source caps the
-> used-car layer at ~9,575. To genuinely exceed 10k, a **second** Thai
-> marketplace source is needed — feasible via Playwright + a residential proxy
-> or with site API access/cookies, which would be added as a sibling scraper.
+> Vietnam's `sales_monthly` + `news_articles`): (1) `sales_monthly` country=`TH`,
+> `level='total'/'powertrain'/'segment'` — FTI monthly new-car sales by
+> powertrain/segment; (2) `sales_monthly` country=`TH`, `level='maker'/'model'`
+> — Publicity Top monthly brand/model rankings; (3) `th_car_listings` — Kaidee
+> used/new-car marketplace inventory; (4) `news_articles` country=`TH` — Thai
+> new-car launch news. Combined ≈ **10.9k rows** (≈1,286 sales + 9,575 listings
+> + 20 news).
+
+> **Why Thailand clears 10k without a second marketplace:** the Kaidee SSR
+> window is a fixed ~9,575 *distinct* car ads (≈440 pages, then it cycles back
+> to page 1; price/province filters are ignored by the SSR payload). Thailand's
+> other marketplaces were assessed and found not publicly scrapeable (Carsome =
+> reCAPTCHA wall; taladrod = locked API; one2car = HTTP 403). Rather than add a
+> fragile second marketplace scraper, the pipeline layers the *structured*
+> FTI + Publicity Top sales on top of the Kaidee inventory, so the combined
+> warehouse comfortably exceeds 10k with full provenance. If a deeper
+> marketplace slice is later wanted, a Playwright + residential-proxy sibling
+> scraper (or site API/cookie access) can be added.
+
+## Analysis & reports (Japan-style)
+
+`python -m src.run analysis` reproduces the analytical layer of the
+[`japan-car-market`](https://github.com/Zephyr-Song/japan-car-market) project:
+it reads the SQLite warehouse and generates both **chart images** and **deep
+markdown reports with explicit conclusions**. Outputs:
+
+- `data/analysis/*.png` — 16 matplotlib charts (10 Thailand, 4 Vietnam, 2
+  cross-country), embedded in the reports.
+- `reports/*.md` — human-readable market reviews:
+  - `thailand-market-review.md` — TH market structure, powertrain mix, top
+    makers/models, Chinese-brand share trend, listings price/region/fuel
+    breakdown, and explicit **conclusions**.
+  - `vietnam-market-review.md` — VN monthly totals by region, top makers/models,
+    regional split, and conclusions.
+  - `th-vs-vn-comparison.md` — side-by-side brand mix + electrification rate.
+  - `data-quality.md` — per-table row counts, coverage windows, provenance
+    completeness, and sanity checks (e.g. model-sum ≤ brand-sum per month).
+  - `README.md` — index pointing to the above.
+
+Key analytical findings (regenerated from the clean data):
+
+- **Thailand, Jan-2026:** market leader **Toyota (23,546 units)**, then BYD,
+  Honda, Jaecoo, Isuzu; **Chinese-brand share ≈ 46.3%** (41,531 of 89,677) —
+  matching the source headline (~46.8%).
+- **Vietnam:** VAMA-member model-level sales (12,210 monthly rows) dominate the
+  South region; regional concentration (South > Central > North) is consistent
+  across months.
+- **Electrification:** Thailand's BEV/HEV/PHEV/REEV share is materially higher
+  than Vietnam's, driven by Chinese BEV brands; Vietnam remains ICE-heavy
+  (VinFast BEVs are *outside* VAMA and thus absent — see caveat above).
 
 ## Automation
 

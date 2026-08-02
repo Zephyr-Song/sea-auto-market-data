@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-02T12:40:29+00:00",
+  "generated_at": "2026-08-02T14:07:41+00:00",
   "export_row_counts": {
-    "sales_monthly": 12261,
+    "sales_monthly": 13496,
     "sales_vn_model": 2821,
     "sales_vn_maker": 439,
-    "sales_th_monthly": 51,
+    "sales_th_monthly": 1286,
     "news_articles": 180,
     "th_car_listings": 9575,
     "data_quality_flags": 28
@@ -31,6 +31,13 @@
         "url": "https://www.kaidee.com/browse?category=cars",
         "country": "TH",
         "note": "Thailand's largest C2C/classifieds marketplace. Each car ad is one row (used + new inventory), giving the high-volume 'marketplace listings' layer that mirrors the Japan project's carsensor/goo-net data. Brand/model/year/mileage/fuel parsed from the ad's tracking metadata; province parsed from the ad location."
+      },
+      "publicitytop": {
+        "name": "Publicity Top (Thailand new-car sales rankings by brand & model)",
+        "site": "publicitytop.com",
+        "url": "https://publicitytop.com",
+        "country": "TH",
+        "note": "Publishes a monthly 'Thailand <Month> <Year>:' report with the full brand ranking (Top ~45) and model ranking (Top ~206) as concatenated text. A WordPress REST API enumerates every report. We parse each into sales_monthly at level='maker'/'model', giving Thailand a dense, Japan-style brand/model sales layer on top of the Kaidee marketplace inventory."
       }
     },
     "news": {
@@ -74,6 +81,14 @@
       "last_period": 202606,
       "months": 13,
       "rows": 51
+    },
+    {
+      "country": "TH",
+      "source": "publicitytop",
+      "first_period": 202408,
+      "last_period": 202601,
+      "months": 16,
+      "rows": 1235
     },
     {
       "country": "VN",
@@ -130,6 +145,55 @@
   ],
   "recent_runs": [
     {
+      "source": "publicitytop:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T14:03:15+00:00",
+      "rows_in": 1265,
+      "message": ""
+    },
+    {
+      "source": "publicitytop:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T14:00:23+00:00",
+      "rows_in": 1251,
+      "message": ""
+    },
+    {
+      "source": "publicitytop:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T13:54:16+00:00",
+      "rows_in": 1232,
+      "message": ""
+    },
+    {
+      "source": "publicitytop:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T13:51:09+00:00",
+      "rows_in": 3051,
+      "message": ""
+    },
+    {
+      "source": "publicitytop:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T13:47:14+00:00",
+      "rows_in": 3253,
+      "message": ""
+    },
+    {
+      "source": "publicitytop:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T13:25:10+00:00",
+      "rows_in": 3279,
+      "message": ""
+    },
+    {
+      "source": "publicitytop:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T13:22:29+00:00",
+      "rows_in": 856,
+      "message": ""
+    },
+    {
       "source": "rss:news",
       "status": "ok",
       "started_at": "2026-08-02T08:57:38+00:00",
@@ -161,55 +225,6 @@
       "source": "fti:sales",
       "status": "ok",
       "started_at": "2026-08-02T08:42:39+00:00",
-      "rows_in": 51,
-      "message": ""
-    },
-    {
-      "source": "vama:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T08:39:40+00:00",
-      "rows_in": 12210,
-      "message": ""
-    },
-    {
-      "source": "vama:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T08:35:09+00:00",
-      "rows_in": 12210,
-      "message": ""
-    },
-    {
-      "source": "vama:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T08:27:51+00:00",
-      "rows_in": 11965,
-      "message": ""
-    },
-    {
-      "source": "vama:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T08:21:05+00:00",
-      "rows_in": 12324,
-      "message": ""
-    },
-    {
-      "source": "vama:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T08:14:13+00:00",
-      "rows_in": 12355,
-      "message": ""
-    },
-    {
-      "source": "rss:news",
-      "status": "ok",
-      "started_at": "2026-08-02T07:57:33+00:00",
-      "rows_in": 180,
-      "message": ""
-    },
-    {
-      "source": "fti:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T07:57:08+00:00",
       "rows_in": 51,
       "message": ""
     }

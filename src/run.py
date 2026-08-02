@@ -13,12 +13,14 @@ import sys
 
 from . import db
 from .export import export_all
-from .sources import vama_vn, fti_th, news_rss, kaidee_th
+from .analysis import run_analysis
+from .sources import vama_vn, fti_th, news_rss, kaidee_th, publicitytop_th
 
 SOURCES = {
     "vama": vama_vn,
     "fti": fti_th,
     "kaidee": kaidee_th,
+    "publicitytop": publicitytop_th,
     "news": news_rss,
 }
 
@@ -48,6 +50,12 @@ def cmd_export(_args) -> int:
     counts = export_all()
     for name, n in counts.items():
         print(f"  {name:22s} {n:>7,} rows")
+    return 0
+
+
+def cmd_analysis(_args) -> int:
+    db.init_db()
+    run_analysis()
     return 0
 
 
@@ -100,6 +108,9 @@ def main() -> int:
 
     e = sub.add_parser("export", help="write CSV/JSON artifacts")
     e.set_defaults(func=cmd_export)
+
+    a = sub.add_parser("analysis", help="build reports/ + data/analysis charts")
+    a.set_defaults(func=cmd_analysis)
 
     s = sub.add_parser("stats", help="print coverage summary")
     s.set_defaults(func=cmd_stats)
