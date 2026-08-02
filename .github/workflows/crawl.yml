@@ -24,16 +24,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Crawl and export
+      - name: Crawl, export and analyze
         run: |
           python -m src.run fetch --full
           python -m src.run export
+          python -m src.run analysis
 
       - name: Commit data artifacts
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/csv data/json data/manifest.json
+          git add data/csv data/json data/manifest.json reports data/analysis
           if git diff --cached --quiet; then
             echo "no data changes"
           else
