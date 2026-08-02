@@ -1,11 +1,12 @@
 {
-  "generated_at": "2026-08-02T09:06:03+00:00",
+  "generated_at": "2026-08-02T12:40:29+00:00",
   "export_row_counts": {
     "sales_monthly": 12261,
     "sales_vn_model": 2821,
     "sales_vn_maker": 439,
     "sales_th_monthly": 51,
     "news_articles": 180,
+    "th_car_listings": 9575,
     "data_quality_flags": 28
   },
   "sources": {
@@ -23,6 +24,13 @@
         "url": "https://autolifethailand.tv",
         "country": "TH",
         "note": "Official FTI automotive-club figures, republished in full by AutoLife Thailand; Thai Buddhist Era calendar (BE-543 = CE)."
+      },
+      "kaidee": {
+        "name": "Kaidee (Thailand online classifieds marketplace)",
+        "site": "kaidee.com",
+        "url": "https://www.kaidee.com/browse?category=cars",
+        "country": "TH",
+        "note": "Thailand's largest C2C/classifieds marketplace. Each car ad is one row (used + new inventory), giving the high-volume 'marketplace listings' layer that mirrors the Japan project's carsensor/goo-net data. Brand/model/year/mileage/fuel parsed from the ad's tracking metadata; province parsed from the ad location."
       }
     },
     "news": {
@@ -76,6 +84,13 @@
       "rows": 12210
     }
   ],
+  "listings_summary": {
+    "rows": 9575,
+    "makers": 45,
+    "provinces": 67,
+    "min_year": 1956,
+    "max_year": 2026
+  },
   "news_coverage": [
     {
       "country": "TH",
@@ -117,22 +132,85 @@
     {
       "source": "rss:news",
       "status": "ok",
-      "started_at": "2026-08-02T09:05:48+00:00",
+      "started_at": "2026-08-02T08:57:38+00:00",
       "rows_in": 180,
       "message": ""
     },
     {
       "source": "fti:sales",
       "status": "ok",
-      "started_at": "2026-08-02T09:05:24+00:00",
+      "started_at": "2026-08-02T08:57:12+00:00",
       "rows_in": 51,
       "message": ""
     },
     {
       "source": "vama:sales",
       "status": "ok",
-      "started_at": "2026-08-02T09:02:07+00:00",
+      "started_at": "2026-08-02T08:54:24+00:00",
       "rows_in": 12210,
+      "message": ""
+    },
+    {
+      "source": "rss:news",
+      "status": "ok",
+      "started_at": "2026-08-02T08:43:05+00:00",
+      "rows_in": 180,
+      "message": ""
+    },
+    {
+      "source": "fti:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:42:39+00:00",
+      "rows_in": 51,
+      "message": ""
+    },
+    {
+      "source": "vama:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:39:40+00:00",
+      "rows_in": 12210,
+      "message": ""
+    },
+    {
+      "source": "vama:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:35:09+00:00",
+      "rows_in": 12210,
+      "message": ""
+    },
+    {
+      "source": "vama:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:27:51+00:00",
+      "rows_in": 11965,
+      "message": ""
+    },
+    {
+      "source": "vama:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:21:05+00:00",
+      "rows_in": 12324,
+      "message": ""
+    },
+    {
+      "source": "vama:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:14:13+00:00",
+      "rows_in": 12355,
+      "message": ""
+    },
+    {
+      "source": "rss:news",
+      "status": "ok",
+      "started_at": "2026-08-02T07:57:33+00:00",
+      "rows_in": 180,
+      "message": ""
+    },
+    {
+      "source": "fti:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T07:57:08+00:00",
+      "rows_in": 51,
       "message": ""
     }
   ]

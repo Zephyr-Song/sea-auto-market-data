@@ -84,6 +84,39 @@ CREATE TABLE IF NOT EXISTS data_quality_flags (
     flagged_at TEXT NOT NULL,
     UNIQUE(country, year, month, entity, issue)
 );
+
+-- Thailand used/new-car marketplace listings (the Japan-repo method: high-volume
+-- marketplace inventory mirrors carsensor/goo-net). One row per marketplace ad.
+-- Provenance columns mirror sales_monthly so every listing is source-traceable.
+CREATE TABLE IF NOT EXISTS th_car_listings (
+    id           INTEGER PRIMARY KEY AUTOINCREMENT,
+    country      TEXT    NOT NULL DEFAULT 'TH',
+    listing_id   TEXT    NOT NULL,
+    source       TEXT    NOT NULL,
+    source_name  TEXT    NOT NULL DEFAULT '',
+    source_site  TEXT    NOT NULL DEFAULT '',
+    source_url   TEXT    NOT NULL DEFAULT '',
+    title        TEXT    NOT NULL DEFAULT '',
+    maker        TEXT    NOT NULL DEFAULT '',
+    model        TEXT    NOT NULL DEFAULT '',
+    year         INTEGER,
+    price_thb    INTEGER,
+    province     TEXT    NOT NULL DEFAULT '',
+    condition    TEXT    NOT NULL DEFAULT '',   -- new|used
+    category     TEXT    NOT NULL DEFAULT '',
+    mileage_km   INTEGER,
+    fuel_type    TEXT    NOT NULL DEFAULT '',
+    body_type    TEXT    NOT NULL DEFAULT '',
+    image_url    TEXT    NOT NULL DEFAULT '',
+    seller_type  TEXT    NOT NULL DEFAULT '',
+    listed_at    TEXT,
+    scraped_at   TEXT    NOT NULL,
+    UNIQUE(listing_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_list_maker  ON th_car_listings(maker);
+CREATE INDEX IF NOT EXISTS idx_list_prov   ON th_car_listings(province);
+CREATE INDEX IF NOT EXISTS idx_list_year   ON th_car_listings(year);
 """
 
 SALES_COLS = (
@@ -243,4 +276,54 @@ def clear_flags() -> int:
     """Delete all data-quality flags (they are regenerated on each crawl)."""
     with connect() as conn:
         cur = conn.execute("DELETE FROM data_quality_flags")
+        return cur.rowcount
+
+
+LISTING_COLS = (
+    "country", "listing_id", "source", "source_name", "source_site", "source_url",
+    "title", "maker", "model", "year", "price_thb", "province", "condition",
+    "category", "mileage_km", "fuel_type", "body_type", "image_url", "seller_type",
+    "listed_at", "scraped_at",
+)
+
+
+def upsert_listing(rows: Iterable[Mapping[str, Any]]) -> int:
+    """Insert or replace Thailand marketplace listings. Returns rows written."""
+    rows = list(rows)
+    if not rows:
+        return 0
+    now = utcnow()
+    payload = []
+    for r in rows:
+        rec = {c: r.get(c) for c in LISTING_COLS}
+        for text_col in ("listing_id", "source", "source_name", "source_site",
+                         "source_url", "title", "maker", "model", "province",
+                         "condition", "category", "fuel_type", "body_type",
+                         "image_url", "seller_type"):
+            rec[text_col] = (rec[text_col] or "")
+        rec["country"] = rec["country"] or "TH"
+        rec["scraped_at"] = now
+        payload.append(tuple(rec[c] for c in LISTING_COLS))
+
+    placeholders = ",".join("?" * len(LISTING_COLS))
+    sql = (
+        f"INSERT INTO th_car_listings ({','.join(LISTING_COLS)}) VALUES ({placeholders}) "
+        "ON CONFLICT(listing_id) "
+        "DO UPDATE SET source_name=excluded.source_name, source_site=excluded.source_site, "
+        "source_url=excluded.source_url, title=excluded.title, maker=excluded.maker, "
+        "model=excluded.model, year=excluded.year, price_thb=excluded.price_thb, "
+        "province=excluded.province, condition=excluded.condition, category=excluded.category, "
+        "mileage_km=excluded.mileage_km, fuel_type=excluded.fuel_type, body_type=excluded.body_type, "
+        "image_url=excluded.image_url, seller_type=excluded.seller_type, "
+        "listed_at=excluded.listed_at, scraped_at=excluded.scraped_at"
+    )
+    with connect() as conn:
+        conn.executemany(sql, payload)
+    return len(payload)
+
+
+def clear_listings(source: str) -> int:
+    """Delete every listing row for a source (used by ``--full``)."""
+    with connect() as conn:
+        cur = conn.execute("DELETE FROM th_car_listings WHERE source=?", (source,))
         return cur.rowcount

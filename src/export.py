@@ -44,6 +44,13 @@ EXPORTS: dict[str, str] = {
         FROM news_articles
         ORDER BY published_at DESC, source
     """,
+    "th_car_listings": """
+        SELECT country, listing_id, source, source_name, source_site, source_url,
+               title, maker, model, year, price_thb, province, condition, category,
+               mileage_km, fuel_type, body_type, seller_type, listed_at
+        FROM th_car_listings
+        ORDER BY maker, model, year DESC, listing_id
+    """,
     "data_quality_flags": """
         SELECT country, year, month, entity, issue, detail
         FROM data_quality_flags
@@ -95,6 +102,12 @@ def _write_manifest(counts: dict[str, int]) -> None:
             SELECT source, status, started_at, rows_in, message
             FROM fetch_runs ORDER BY id DESC LIMIT 12
         """).fetchall()
+        lists = conn.execute("""
+            SELECT COUNT(*) AS rows, COUNT(DISTINCT maker) AS makers,
+                   COUNT(DISTINCT province) AS provinces,
+                   MIN(year) AS min_year, MAX(year) AS max_year
+            FROM th_car_listings
+        """).fetchone()
 
     manifest = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -112,6 +125,7 @@ def _write_manifest(counts: dict[str, int]) -> None:
             },
         },
         "sales_coverage": [dict(r) for r in cov],
+        "listings_summary": dict(lists) if lists else {},
         "news_coverage": [dict(r) for r in news],
         "recent_runs": [dict(r) for r in runs],
     }

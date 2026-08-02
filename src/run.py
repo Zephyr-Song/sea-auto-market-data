@@ -13,11 +13,12 @@ import sys
 
 from . import db
 from .export import export_all
-from .sources import vama_vn, fti_th, news_rss
+from .sources import vama_vn, fti_th, news_rss, kaidee_th
 
 SOURCES = {
     "vama": vama_vn,
     "fti": fti_th,
+    "kaidee": kaidee_th,
     "news": news_rss,
 }
 
@@ -74,6 +75,16 @@ def cmd_stats(_args) -> int:
 
         q = conn.execute("SELECT COUNT(*) n FROM data_quality_flags").fetchone()
         print(f"\ndata-quality flags: {q['n']}")
+
+        print("\n=== Thailand marketplace listings ===")
+        for r in conn.execute("""
+            SELECT COUNT(*) n, COUNT(DISTINCT maker) makers,
+                   COUNT(DISTINCT province) prov, MIN(year) y0, MAX(year) y1
+            FROM th_car_listings
+        """):
+            print(f"  th_car_listings: {r['n']:>7,} rows | "
+                  f"{r['makers']} makers | {r['prov']} provinces | "
+                  f"years {r['y0']}..{r['y1']}")
     return 0
 
 

@@ -9,6 +9,7 @@ CSV/JSON. A scheduled GitHub Action refreshes it on the 1st of every month.
 | Country | Source | What it covers | Granularity |
 | --- | --- | --- | --- |
 | 🇹🇭 Thailand | Federation of Thai Industries (FTI) — figures republished in full by [AutoLife Thailand](https://autolifethailand.tv) | Total market + breakdown by powertrain (ICE / BEV / PHEV / REEV / HEV) and by pickup segment (1-ton, modified/PPV) | Monthly **and** year-to-date (YTD) |
+| 🇹🇭 Thailand | [Kaidee](https://www.kaidee.com/browse?categoryId=11) online classifieds marketplace | **High-volume inventory layer** — every car ad (used + new) as one row: brand, model, year, price, province, mileage, fuel. This is the marketplace-listings layer that mirrors the Japan project's carsensor/goo-net method (~9.5k clean car rows) | Live snapshot (per crawl) |
 | 🇻🇳 Vietnam | [VAMA](http://vama.org.vn) monthly sales report (model-level `Detail.pdf`) | Every model sold by a VAMA member, broken out by region (North / Central / South) + YTD | Monthly, model-level |
 | 🇹🇭🇻🇳 News | HeadlightMag, AutoLife Thailand, VnExpress ô-tô, Tuổi Trẻ Xe, Thanh Niên Xe (RSS) | New-model launches & market commentary | Rolling feed archive |
 
@@ -56,6 +57,7 @@ src/
     base.py          # HTTP session, retry, HTML stripping, number parsing
     vama_vn.py       # Vietnam VAMA PDF parser
     fti_th.py        # Thailand FTI briefing parser
+    kaidee_th.py     # Thailand Kaidee marketplace-listings scraper
     news_rss.py      # TH/VN news RSS parser
 data/
   market.db          # SQLite warehouse (LOCAL working copy; not committed)
@@ -93,6 +95,56 @@ One row per `(country, year, month, level, maker, model, category, region, sourc
 | `source_url` | exact webpage/PDF the value was crawled from |
 | `source_name` | publishing organisation (provenance) |
 | `source_site` | website domain crawled, e.g. `vama.org.vn` (provenance) |
+
+## Schema (th_car_listings) — Thailand marketplace inventory
+
+One row per Kaidee car ad (the volume layer). Mirrors the provenance discipline
+of `sales_monthly` so every listing is source-traceable:
+
+| column | meaning |
+| --- | --- |
+| `listing_id` | Kaidee ad id (unique) |
+| `source` | `kaidee` |
+| `source_url` | exact ad page, `https://www.kaidee.com/ads/{id}` |
+| `source_name` / `source_site` | `Kaidee (Thailand online classifieds marketplace)` / `kaidee.com` |
+| `title` | raw ad title (often contains year + variant) |
+| `maker` / `model` | brand / model (parsed from the ad's tracking metadata) |
+| `year` | model year (parsed) |
+| `price_thb` | asking price in Thai baht |
+| `province` | Thai province parsed from the ad location |
+| `condition` | `new` \| `used` |
+| `category` | Thai category label (e.g. `รถยนต์`) |
+| `mileage_km` | odometer reading (when present) |
+| `fuel_type` | e.g. `hybrid`, `ev`, `gasoline` |
+| `body_type` | e.g. `Utility-car`, `Sedan` |
+| `seller_type` | `auto_owner` / dealership role |
+| `listed_at` | ad first-published timestamp |
+
+> **Why a separate table?** Thailand has no free VAMA-equivalent model-level
+> monthly PDF, so its *new-car sales* table is necessarily smaller than Vietnam's.
+> The Japan project (`japan-car-market`) reaches its 万-level row count via
+> marketplace **listings** (carsensor/goo-net), not sales — so we do the same here:
+> `th_car_listings` is the high-volume, market-inventory layer, while
+> `sales_monthly` remains the structured new-car-sales facts.
+
+> **Thailand coverage is comprehensive across three layers** (mirroring the
+> Japan project's `used_cars` + `new_car_sales_brand` + news structure, and
+> Vietnam's `sales_monthly` + `news_articles`): (1) `sales_monthly` country=`TH`
+> — FTI monthly new-car sales by powertrain/segment; (2) `th_car_listings` —
+> Kaidee used/new-car marketplace inventory; (3) `news_articles` country=`TH` —
+> Thai new-car launch news. Total ≈ **9.6k rows** (≈9,575 listings + 51 sales +
+> 20 news).
+>
+> **Volume ceiling (transparency):** Kaidee's server-rendered car browse is a
+> fixed window — it returns ~9,575 *distinct* car ads (≈440 pages) and then
+> cycles back to page 1; price/province-name filters are ignored by the SSR
+> payload, and per-province feeds are small disjoint slices of the same
+> aggregate. Thailand's other marketplaces were assessed and found not
+> publicly scrapeable (Carsome = reCAPTCHA wall; taladrod = locked API;
+> one2car = HTTP 403). So a single free scrapeable Thai source caps the
+> used-car layer at ~9,575. To genuinely exceed 10k, a **second** Thai
+> marketplace source is needed — feasible via Playwright + a residential proxy
+> or with site API access/cookies, which would be added as a sibling scraper.
 
 ## Automation
 

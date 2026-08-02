@@ -54,6 +54,17 @@ SOURCES = {
         "note": "Official FTI automotive-club figures, republished in full by "
                 "AutoLife Thailand; Thai Buddhist Era calendar (BE-543 = CE).",
     },
+    "kaidee": {
+        "name": "Kaidee (Thailand online classifieds marketplace)",
+        "site": "kaidee.com",
+        "url": "https://www.kaidee.com/browse?category=cars",
+        "country": "TH",
+        "note": "Thailand's largest C2C/classifieds marketplace. Each car ad is one "
+                "row (used + new inventory), giving the high-volume 'marketplace "
+                "listings' layer that mirrors the Japan project's carsensor/goo-net "
+                "data. Brand/model/year/mileage/fuel parsed from the ad's tracking "
+                "metadata; province parsed from the ad location.",
+    },
 }
 
 # --- News feeds ---------------------------------------------------------------
