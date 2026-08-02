@@ -1,12 +1,9 @@
 name: Monthly market data refresh
 
-# Re-crawls Thailand (FTI) + Vietnam (VAMA) monthly sales and the TH/VN auto
-# news feeds, regenerates the SQLite warehouse, and commits the durable
-# CSV/JSON artifacts back to the repo on the 1st of every month (plus manual runs).
 on:
   schedule:
-    - cron: "0 2 1 * *"        # 02:00 UTC, 1st of each month
-  workflow_dispatch: {}        # allow manual "Run workflow"
+    - cron: "0 2 1 * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -27,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Crawl + export
+      - name: Crawl and export
         run: |
           python -m src.run fetch --full
           python -m src.run export
