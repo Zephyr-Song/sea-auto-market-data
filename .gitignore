@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.local
+# SQLite is the local working warehouse (rebuilt every run); the durable,
+# diff-friendly artifacts are the CSV/JSON exports + manifest.
+data/market.db
+data/market.db-wal
+data/market.db-shm
+data/raw/

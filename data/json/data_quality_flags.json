@@ -1,0 +1,226 @@
+[
+ {
+  "country": "VN",
+  "year": 2026,
+  "month": 1,
+  "entity": "THACO KIA1. V|AXeM khAácsendtomedia_Janua",
+  "issue": "region_sum_mismatch",
+  "detail": "month parts=1257 total=257"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 12,
+  "entity": "Toyota|Land Prado",
+  "issue": "implausible_value",
+  "detail": "m_total=71 y_total=676 regions={'North': (41, 32229032), 'Central': (8, 116065), 'South': (22, 2376452)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 12,
+  "entity": "Toyota|Sub-total",
+  "issue": "implausible_value",
+  "detail": "m_total=8329 y_total=71954 regions={'North': (3698, 30155698), 'Central': (1854, 162316), 'South': (2777, 2556668)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 12,
+  "entity": "Toyota|Yaris Cross",
+  "issue": "implausible_value",
+  "detail": "m_total=1370 y_total=13932 regions={'North': (583, 61524078), 'Central': (611, 504156), 'South': (176, 2738031)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 11,
+  "entity": "Toyota|Land Prado",
+  "issue": "implausible_value",
+  "detail": "m_total=56 y_total=605 regions={'North': (38, 28129032), 'Central': (6, 108065), 'South': (12, 2156452)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 11,
+  "entity": "Toyota|Sub-total",
+  "issue": "implausible_value",
+  "detail": "m_total=7731 y_total=63625 regions={'North': (3450, 26457698), 'Central': (1798, 143776), 'South': (2483, 2278968)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 11,
+  "entity": "Toyota|Yaris Cross",
+  "issue": "implausible_value",
+  "detail": "m_total=1663 y_total=12562 regions={'North': (803, 55694078), 'Central': (576, 443056), 'South': (284, 2562031)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 10,
+  "entity": "Toyota|Land Prado",
+  "issue": "implausible_value",
+  "detail": "m_total=68 y_total=549 regions={'North': (36, 24329032), 'Central': (6, 102065), 'South': (26, 2036452)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 10,
+  "entity": "Toyota|Sub-total",
+  "issue": "implausible_value",
+  "detail": "m_total=7768 y_total=55894 regions={'North': (3281, 23007698), 'Central': (1800, 125796), 'South': (2687, 2030668)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 10,
+  "entity": "Toyota|Yaris Cross",
+  "issue": "implausible_value",
+  "detail": "m_total=1748 y_total=10899 regions={'North': (812, 47664078), 'Central': (572, 385456), 'South': (364, 2278031)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 9,
+  "entity": "Toyota|Land Prado",
+  "issue": "implausible_value",
+  "detail": "m_total=56 y_total=481 regions={'North': (31, 20729032), 'Central': (7, 960645), 'South': (18, 1776452)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 9,
+  "entity": "Toyota|Sub-total",
+  "issue": "implausible_value",
+  "detail": "m_total=7013 y_total=48126 regions={'North': (3023, 19726698), 'Central': (1578, 107796), 'South': (2412, 1761968)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 9,
+  "entity": "Toyota|Yaris Cross",
+  "issue": "implausible_value",
+  "detail": "m_total=1842 y_total=9151 regions={'North': (909, 39544078), 'Central': (589, 328256), 'South': (344, 1914031)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 8,
+  "entity": "Toyota|Land Prado",
+  "issue": "implausible_value",
+  "detail": "m_total=57 y_total=425 regions={'North': (29, 17629032), 'Central': (10, 890645), 'South': (18, 1596452)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 8,
+  "entity": "Toyota|Sub-total",
+  "issue": "implausible_value",
+  "detail": "m_total=5171 y_total=41113 regions={'North': (2144, 16703698), 'Central': (1227, 920163), 'South': (1800, 1520768)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 8,
+  "entity": "Toyota|Yaris Cross",
+  "issue": "implausible_value",
+  "detail": "m_total=877 y_total=7309 regions={'North': (380, 30454078), 'Central': (347, 269356), 'South': (150, 1570031)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 7,
+  "entity": "Toyota|Land Prado",
+  "issue": "implausible_value",
+  "detail": "m_total=53 y_total=368 regions={'North': (22, 14729032), 'Central': (13, 790645), 'South': (18, 1416452)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 7,
+  "entity": "Toyota|Sub-total",
+  "issue": "implausible_value",
+  "detail": "m_total=6668 y_total=35942 regions={'North': (2742, 14559698), 'Central': (1581, 797463), 'South': (2345, 1340768)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 7,
+  "entity": "Toyota|Yaris Cross",
+  "issue": "implausible_value",
+  "detail": "m_total=1199 y_total=6432 regions={'North': (517, 26654078), 'Central': (472, 234656), 'South': (210, 1420031)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 6,
+  "entity": "Toyota|Land Prado",
+  "issue": "implausible_value",
+  "detail": "m_total=66 y_total=315 regions={'North': (35, 12529032), 'Central': (12, 660645), 'South': (19, 1236452)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 6,
+  "entity": "Toyota|Sub-total",
+  "issue": "implausible_value",
+  "detail": "m_total=6213 y_total=29274 regions={'North': (2550, 11817698), 'Central': (1215, 639363), 'South': (2448, 1106268)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 6,
+  "entity": "Toyota|Yaris Cross",
+  "issue": "implausible_value",
+  "detail": "m_total=1118 y_total=5233 regions={'North': (534, 21484078), 'Central': (351, 187456), 'South': (233, 1210031)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 4,
+  "entity": "Toyota|Land Prado",
+  "issue": "implausible_value",
+  "detail": "m_total=76 y_total=204 regions={'North': (22, 79290323), 'Central': (15, 450645), 'South': (39, 7964516)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 4,
+  "entity": "Toyota|Sub-total",
+  "issue": "implausible_value",
+  "detail": "m_total=5566 y_total=17396 regions={'North': (2338, 69916981), 'Central': (1194, 393963), 'South': (2034, 6464676)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 4,
+  "entity": "Toyota|Yaris Cross",
+  "issue": "implausible_value",
+  "detail": "m_total=1030 y_total=3070 regions={'North': (472, 11284078), 'Central': (320, 116856), 'South': (238, 773031)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 3,
+  "entity": "Toyota|Land Prado",
+  "issue": "implausible_value",
+  "detail": "m_total=80 y_total=128 regions={'North': (41, 57290323), 'Central': (18, 300645), 'South': (21, 4064516)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 3,
+  "entity": "Toyota|Sub-total",
+  "issue": "implausible_value",
+  "detail": "m_total=5370 y_total=11830 regions={'North': (19566981, 46536981), 'Central': (138663, 274563), 'South': (2026676, 4430676)}"
+ },
+ {
+  "country": "VN",
+  "year": 2025,
+  "month": 3,
+  "entity": "Toyota|Yaris Cross",
+  "issue": "implausible_value",
+  "detail": "m_total=1140 y_total=2040 regions={'North': (219, 65640781), 'Central': (562, 848561), 'South': (359, 535031)}"
+ }
+]

@@ -1,0 +1,3 @@
+requests>=2.32
+pdfplumber>=0.11
+feedparser>=6.0

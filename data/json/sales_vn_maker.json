@@ -1,0 +1,3075 @@
+[
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "Toyota",
+  "units": 6494,
+  "units_ytd": 35410
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "Mitsubishi",
+  "units": 3158,
+  "units_ytd": 21617
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "Ford",
+  "units": 2741,
+  "units_ytd": 21232
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "THACO KIA",
+  "units": 2675,
+  "units_ytd": 15732
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "THACO MAZDA",
+  "units": 2361,
+  "units_ytd": 15298
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "THACO TRUCK",
+  "units": 2173,
+  "units_ytd": 12519
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "Honda",
+  "units": 2002,
+  "units_ytd": 11305
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "Isuzu",
+  "units": 900,
+  "units_ytd": 5385
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "Suzuki",
+  "units": 654,
+  "units_ytd": 3814
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "Hino",
+  "units": 229,
+  "units_ytd": 1667
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "BUS THACO",
+  "units": 156,
+  "units_ytd": 1063
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "PEUGEOT",
+  "units": 122,
+  "units_ytd": 670
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "SAMCO",
+  "units": 10,
+  "units_ytd": 115
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "DAEWOO BUS",
+  "units": 6,
+  "units_ytd": 31
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "maker": "VINAMOTOR",
+  "units": 5,
+  "units_ytd": 166
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "Toyota",
+  "units": 5653,
+  "units_ytd": 28916
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "Ford",
+  "units": 3493,
+  "units_ytd": 18491
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "Mitsubishi",
+  "units": 3111,
+  "units_ytd": 18459
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "THACO KIA",
+  "units": 2512,
+  "units_ytd": 13057
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "THACO MAZDA",
+  "units": 2304,
+  "units_ytd": 12937
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "THACO TRUCK",
+  "units": 2170,
+  "units_ytd": 10346
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "Honda",
+  "units": 1870,
+  "units_ytd": 9303
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "Isuzu",
+  "units": 1102,
+  "units_ytd": 4485
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "Suzuki",
+  "units": 544,
+  "units_ytd": 3160
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "Hino",
+  "units": 244,
+  "units_ytd": 1438
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "BUS THACO",
+  "units": 185,
+  "units_ytd": 907
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "PEUGEOT",
+  "units": 84,
+  "units_ytd": 548
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "SAMCO",
+  "units": 27,
+  "units_ytd": 105
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "VINAMOTOR",
+  "units": 8,
+  "units_ytd": 161
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "maker": "DAEWOO BUS",
+  "units": 1,
+  "units_ytd": 25
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "Toyota",
+  "units": 6378,
+  "units_ytd": 23263
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "Mitsubishi",
+  "units": 3439,
+  "units_ytd": 15348
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "Ford",
+  "units": 2866,
+  "units_ytd": 14998
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "THACO MAZDA",
+  "units": 2532,
+  "units_ytd": 10633
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "THACO KIA",
+  "units": 2469,
+  "units_ytd": 10545
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "THACO TRUCK",
+  "units": 2451,
+  "units_ytd": 8176
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "Honda",
+  "units": 1830,
+  "units_ytd": 7433
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "Isuzu",
+  "units": 860,
+  "units_ytd": 3383
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "Suzuki",
+  "units": 464,
+  "units_ytd": 2616
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "Hino",
+  "units": 232,
+  "units_ytd": 1194
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "BUS THACO",
+  "units": 146,
+  "units_ytd": 722
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "PEUGEOT",
+  "units": 72,
+  "units_ytd": 464
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "VINAMOTOR",
+  "units": 20,
+  "units_ytd": 153
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "SAMCO",
+  "units": 11,
+  "units_ytd": 78
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "maker": "DAEWOO BUS",
+  "units": 3,
+  "units_ytd": 24
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "Toyota",
+  "units": 8143,
+  "units_ytd": 16885
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "Mitsubishi",
+  "units": 5086,
+  "units_ytd": 11909
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "Ford",
+  "units": 4538,
+  "units_ytd": 12132
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "THACO KIA",
+  "units": 2849,
+  "units_ytd": 8076
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "THACO MAZDA",
+  "units": 2796,
+  "units_ytd": 8101
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "THACO TRUCK",
+  "units": 2761,
+  "units_ytd": 5725
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "Honda",
+  "units": 1839,
+  "units_ytd": 5603
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "Isuzu",
+  "units": 1067,
+  "units_ytd": 2523
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "Suzuki",
+  "units": 784,
+  "units_ytd": 2152
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "Hino",
+  "units": 423,
+  "units_ytd": 962
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "BUS THACO",
+  "units": 146,
+  "units_ytd": 576
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "PEUGEOT",
+  "units": 103,
+  "units_ytd": 392
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "VINAMOTOR",
+  "units": 102,
+  "units_ytd": 133
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "SAMCO",
+  "units": 45,
+  "units_ytd": 67
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "maker": "DAEWOO BUS",
+  "units": 11,
+  "units_ytd": 21
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "Ford",
+  "units": 5121,
+  "units_ytd": 2473
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "Mitsubishi",
+  "units": 5039,
+  "units_ytd": 1784
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "Toyota",
+  "units": 4852,
+  "units_ytd": 3890
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "THACO MAZDA",
+  "units": 3515,
+  "units_ytd": 1790
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "THACO KIA",
+  "units": 3487,
+  "units_ytd": 1740
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "Honda",
+  "units": 2712,
+  "units_ytd": 1052
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "THACO TRUCK",
+  "units": 1680,
+  "units_ytd": 1284
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "Suzuki",
+  "units": 954,
+  "units_ytd": 414
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "Isuzu",
+  "units": 888,
+  "units_ytd": 568
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "Hino",
+  "units": 337,
+  "units_ytd": 202
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "BUS THACO",
+  "units": 321,
+  "units_ytd": 109
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "PEUGEOT",
+  "units": 191,
+  "units_ytd": 98
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "VINAMOTOR",
+  "units": 12,
+  "units_ytd": 19
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "SAMCO",
+  "units": 10,
+  "units_ytd": 12
+ },
+ {
+  "year": 2026,
+  "month": 2,
+  "maker": "DAEWOO BUS",
+  "units": 2,
+  "units_ytd": 8
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "Ford",
+  "units": 5121,
+  "units_ytd": 5121
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "Mitsubishi",
+  "units": 5039,
+  "units_ytd": 5039
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "Toyota",
+  "units": 4852,
+  "units_ytd": 4852
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "THACO MAZDA",
+  "units": 3515,
+  "units_ytd": 3515
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "THACO KIA",
+  "units": 3487,
+  "units_ytd": 3487
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "Honda",
+  "units": 2712,
+  "units_ytd": 2712
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "THACO TRUCK",
+  "units": 1680,
+  "units_ytd": 1680
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "Suzuki",
+  "units": 954,
+  "units_ytd": 954
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "Isuzu",
+  "units": 888,
+  "units_ytd": 888
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "Hino",
+  "units": 337,
+  "units_ytd": 337
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "BUS THACO",
+  "units": 321,
+  "units_ytd": 321
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "PEUGEOT",
+  "units": 191,
+  "units_ytd": 191
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "VINAMOTOR",
+  "units": 12,
+  "units_ytd": 12
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "SAMCO",
+  "units": 10,
+  "units_ytd": 10
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "maker": "DAEWOO BUS",
+  "units": 2,
+  "units_ytd": 2
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "Mitsubishi",
+  "units": 8960,
+  "units_ytd": 44107
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "Ford",
+  "units": 6143,
+  "units_ytd": 50450
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "THACO MAZDA",
+  "units": 4670,
+  "units_ytd": 32455
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "THACO KIA",
+  "units": 4233,
+  "units_ytd": 27176
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "Honda",
+  "units": 3590,
+  "units_ytd": 28719
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "THACO TRUCK",
+  "units": 2827,
+  "units_ytd": 24810
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "Isuzu",
+  "units": 1313,
+  "units_ytd": 11742
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "Suzuki",
+  "units": 879,
+  "units_ytd": 6596
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "Hino",
+  "units": 465,
+  "units_ytd": 3379
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "PEUGEOT",
+  "units": 232,
+  "units_ytd": 2435
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "BUS THACO",
+  "units": 102,
+  "units_ytd": 2438
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "VINAMOTOR",
+  "units": 13,
+  "units_ytd": 170
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "SAMCO",
+  "units": 12,
+  "units_ytd": 156
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "maker": "DAEWOO BUS",
+  "units": 2,
+  "units_ytd": 195
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "Ford",
+  "units": 5446,
+  "units_ytd": 44307
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "Mitsubishi",
+  "units": 5056,
+  "units_ytd": 35147
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "Honda",
+  "units": 3986,
+  "units_ytd": 25129
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "THACO MAZDA",
+  "units": 3199,
+  "units_ytd": 27785
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "THACO KIA",
+  "units": 2861,
+  "units_ytd": 22943
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "THACO TRUCK",
+  "units": 2200,
+  "units_ytd": 21983
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "Isuzu",
+  "units": 1071,
+  "units_ytd": 10429
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "Suzuki",
+  "units": 660,
+  "units_ytd": 5717
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "Hino",
+  "units": 396,
+  "units_ytd": 2914
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "PEUGEOT",
+  "units": 178,
+  "units_ytd": 2203
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "BUS THACO",
+  "units": 172,
+  "units_ytd": 2336
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "DAEWOO BUS",
+  "units": 9,
+  "units_ytd": 193
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "VINAMOTOR",
+  "units": 9,
+  "units_ytd": 157
+ },
+ {
+  "year": 2025,
+  "month": 11,
+  "maker": "SAMCO",
+  "units": 7,
+  "units_ytd": 144
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "Ford",
+  "units": 5206,
+  "units_ytd": 38861
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "Mitsubishi",
+  "units": 5082,
+  "units_ytd": 30091
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "Honda",
+  "units": 3314,
+  "units_ytd": 21143
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "THACO MAZDA",
+  "units": 2814,
+  "units_ytd": 24586
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "THACO KIA",
+  "units": 2265,
+  "units_ytd": 20082
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "THACO TRUCK",
+  "units": 2187,
+  "units_ytd": 19783
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "Isuzu",
+  "units": 1135,
+  "units_ytd": 9358
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "Suzuki",
+  "units": 595,
+  "units_ytd": 5057
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "Hino",
+  "units": 443,
+  "units_ytd": 2518
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "PEUGEOT",
+  "units": 183,
+  "units_ytd": 2025
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "BUS THACO",
+  "units": 145,
+  "units_ytd": 2164
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "DAEWOO BUS",
+  "units": 19,
+  "units_ytd": 184
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "SAMCO",
+  "units": 8,
+  "units_ytd": 137
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "maker": "VINAMOTOR",
+  "units": 6,
+  "units_ytd": 148
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "Ford",
+  "units": 4270,
+  "units_ytd": 33655
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "Mitsubishi",
+  "units": 3805,
+  "units_ytd": 25009
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "THACO MAZDA",
+  "units": 2393,
+  "units_ytd": 21772
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "THACO TRUCK",
+  "units": 2045,
+  "units_ytd": 17596
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "THACO KIA",
+  "units": 1837,
+  "units_ytd": 17817
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "Honda",
+  "units": 1704,
+  "units_ytd": 17829
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "Isuzu",
+  "units": 1498,
+  "units_ytd": 8223
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "Suzuki",
+  "units": 584,
+  "units_ytd": 4462
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "Hino",
+  "units": 324,
+  "units_ytd": 2075
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "BUS THACO",
+  "units": 145,
+  "units_ytd": 2019
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "PEUGEOT",
+  "units": 143,
+  "units_ytd": 1842
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "VINAMOTOR",
+  "units": 10,
+  "units_ytd": 142
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "SAMCO",
+  "units": 8,
+  "units_ytd": 129
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "maker": "DAEWOO BUS",
+  "units": 5,
+  "units_ytd": 165
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "Ford",
+  "units": 3546,
+  "units_ytd": 29385
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "Honda",
+  "units": 2275,
+  "units_ytd": 16125
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "Mitsubishi",
+  "units": 2180,
+  "units_ytd": 21204
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "THACO TRUCK",
+  "units": 2057,
+  "units_ytd": 15551
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "THACO MAZDA",
+  "units": 1977,
+  "units_ytd": 19379
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "THACO KIA",
+  "units": 1561,
+  "units_ytd": 15980
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "Isuzu",
+  "units": 1061,
+  "units_ytd": 6725
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "Suzuki",
+  "units": 626,
+  "units_ytd": 3878
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "Hino",
+  "units": 275,
+  "units_ytd": 1751
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "BUS THACO",
+  "units": 200,
+  "units_ytd": 1874
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "PEUGEOT",
+  "units": 153,
+  "units_ytd": 1699
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "DAEWOO BUS",
+  "units": 14,
+  "units_ytd": 160
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "VINAMOTOR",
+  "units": 12,
+  "units_ytd": 132
+ },
+ {
+  "year": 2025,
+  "month": 8,
+  "maker": "SAMCO",
+  "units": 5,
+  "units_ytd": 121
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "Ford",
+  "units": 4139,
+  "units_ytd": 25839
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "Mitsubishi",
+  "units": 3231,
+  "units_ytd": 19024
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "THACO MAZDA",
+  "units": 2717,
+  "units_ytd": 17402
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "Honda",
+  "units": 2617,
+  "units_ytd": 13850
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "THACO TRUCK",
+  "units": 2176,
+  "units_ytd": 13494
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "THACO KIA",
+  "units": 2126,
+  "units_ytd": 14419
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "Isuzu",
+  "units": 1033,
+  "units_ytd": 5664
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "Suzuki",
+  "units": 446,
+  "units_ytd": 3252
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "BUS THACO",
+  "units": 326,
+  "units_ytd": 1674
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "Hino",
+  "units": 280,
+  "units_ytd": 1476
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "PEUGEOT",
+  "units": 222,
+  "units_ytd": 1546
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "SAMCO",
+  "units": 23,
+  "units_ytd": 116
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "VINAMOTOR",
+  "units": 18,
+  "units_ytd": 120
+ },
+ {
+  "year": 2025,
+  "month": 7,
+  "maker": "DAEWOO BUS",
+  "units": 14,
+  "units_ytd": 146
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "Ford",
+  "units": 4167,
+  "units_ytd": 21700
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "Mitsubishi",
+  "units": 3663,
+  "units_ytd": 15793
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "THACO MAZDA",
+  "units": 2882,
+  "units_ytd": 14685
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "THACO TRUCK",
+  "units": 2315,
+  "units_ytd": 11318
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "THACO KIA",
+  "units": 2177,
+  "units_ytd": 12293
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "Honda",
+  "units": 1523,
+  "units_ytd": 11233
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "Isuzu",
+  "units": 835,
+  "units_ytd": 4631
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "Suzuki",
+  "units": 483,
+  "units_ytd": 2806
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "BUS THACO",
+  "units": 301,
+  "units_ytd": 1348
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "Hino",
+  "units": 250,
+  "units_ytd": 1196
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "PEUGEOT",
+  "units": 228,
+  "units_ytd": 1324
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "SAMCO",
+  "units": 21,
+  "units_ytd": 93
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "VINAMOTOR",
+  "units": 17,
+  "units_ytd": 102
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "maker": "DAEWOO BUS",
+  "units": 14,
+  "units_ytd": 132
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "Toyota",
+  "units": 3346,
+  "units_ytd": 5665
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "Ford",
+  "units": 2452,
+  "units_ytd": 4054
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "THACO MAZDA",
+  "units": 2031,
+  "units_ytd": 2726
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "THACO KIA",
+  "units": 1846,
+  "units_ytd": 1861
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "Honda",
+  "units": 1826,
+  "units_ytd": 1484
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "Mitsubishi",
+  "units": 1716,
+  "units_ytd": 2172
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "THACO TRUCK",
+  "units": 820,
+  "units_ytd": 1945
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "Isuzu",
+  "units": 547,
+  "units_ytd": 963
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "Suzuki",
+  "units": 280,
+  "units_ytd": 487
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "PEUGEOT",
+  "units": 193,
+  "units_ytd": 192
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "BUS THACO",
+  "units": 190,
+  "units_ytd": 263
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "Hino",
+  "units": 93,
+  "units_ytd": 260
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "VINAMOTOR",
+  "units": 22,
+  "units_ytd": 12
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "SAMCO",
+  "units": 17,
+  "units_ytd": 22
+ },
+ {
+  "year": 2025,
+  "month": 5,
+  "maker": "DAEWOO BUS",
+  "units": 16,
+  "units_ytd": 23
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "Ford",
+  "units": 3997,
+  "units_ytd": 13479
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "THACO MAZDA",
+  "units": 2736,
+  "units_ytd": 9077
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "THACO TRUCK",
+  "units": 2150,
+  "units_ytd": 7058
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "Honda",
+  "units": 2142,
+  "units_ytd": 8226
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "THACO KIA",
+  "units": 2055,
+  "units_ytd": 8255
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "Mitsubishi",
+  "units": 2038,
+  "units_ytd": 9958
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "Isuzu",
+  "units": 743,
+  "units_ytd": 2833
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "Suzuki",
+  "units": 530,
+  "units_ytd": 1836
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "Hino",
+  "units": 260,
+  "units_ytd": 686
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "BUS THACO",
+  "units": 245,
+  "units_ytd": 784
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "PEUGEOT",
+  "units": 213,
+  "units_ytd": 904
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "VINAMOTOR",
+  "units": 32,
+  "units_ytd": 73
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "DAEWOO BUS",
+  "units": 22,
+  "units_ytd": 95
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "maker": "SAMCO",
+  "units": 12,
+  "units_ytd": 50
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "Mitsubishi",
+  "units": 4412,
+  "units_ytd": 7920
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "Ford",
+  "units": 4272,
+  "units_ytd": 9482
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "Honda",
+  "units": 2450,
+  "units_ytd": 6084
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "THACO MAZDA",
+  "units": 2335,
+  "units_ytd": 6341
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "THACO KIA",
+  "units": 2322,
+  "units_ytd": 6200
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "THACO TRUCK",
+  "units": 2278,
+  "units_ytd": 4908
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "Isuzu",
+  "units": 905,
+  "units_ytd": 2090
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "Suzuki",
+  "units": 612,
+  "units_ytd": 1306
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "PEUGEOT",
+  "units": 259,
+  "units_ytd": 691
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "BUS THACO",
+  "units": 222,
+  "units_ytd": 539
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "Hino",
+  "units": 218,
+  "units_ytd": 426
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "DAEWOO BUS",
+  "units": 35,
+  "units_ytd": 73
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "SAMCO",
+  "units": 19,
+  "units_ytd": 38
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "maker": "VINAMOTOR",
+  "units": 12,
+  "units_ytd": 41
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "Toyota",
+  "units": 3114,
+  "units_ytd": 6460
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "Ford",
+  "units": 2758,
+  "units_ytd": 5210
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "THACO KIA",
+  "units": 2032,
+  "units_ytd": 3878
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "THACO MAZDA",
+  "units": 1975,
+  "units_ytd": 4006
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "THACO TRUCK",
+  "units": 1810,
+  "units_ytd": 2630
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "Honda",
+  "units": 1808,
+  "units_ytd": 3634
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "Mitsubishi",
+  "units": 1792,
+  "units_ytd": 3508
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "Isuzu",
+  "units": 638,
+  "units_ytd": 1185
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "Suzuki",
+  "units": 414,
+  "units_ytd": 694
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "PEUGEOT",
+  "units": 239,
+  "units_ytd": 432
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "BUS THACO",
+  "units": 127,
+  "units_ytd": 317
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "Hino",
+  "units": 115,
+  "units_ytd": 208
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "DAEWOO BUS",
+  "units": 22,
+  "units_ytd": 38
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "VINAMOTOR",
+  "units": 7,
+  "units_ytd": 29
+ },
+ {
+  "year": 2025,
+  "month": 2,
+  "maker": "SAMCO",
+  "units": 2,
+  "units_ytd": 19
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "Toyota",
+  "units": 3346,
+  "units_ytd": 3346
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "Ford",
+  "units": 2452,
+  "units_ytd": 2452
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "THACO MAZDA",
+  "units": 2031,
+  "units_ytd": 2031
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "THACO KIA",
+  "units": 1846,
+  "units_ytd": 1846
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "Honda",
+  "units": 1826,
+  "units_ytd": 1826
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "Mitsubishi",
+  "units": 1716,
+  "units_ytd": 1716
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "THACO TRUCK",
+  "units": 820,
+  "units_ytd": 820
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "Isuzu",
+  "units": 547,
+  "units_ytd": 547
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "Suzuki",
+  "units": 280,
+  "units_ytd": 280
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "PEUGEOT",
+  "units": 193,
+  "units_ytd": 193
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "BUS THACO",
+  "units": 190,
+  "units_ytd": 190
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "Hino",
+  "units": 93,
+  "units_ytd": 93
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "VINAMOTOR",
+  "units": 22,
+  "units_ytd": 22
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "SAMCO",
+  "units": 17,
+  "units_ytd": 17
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "maker": "DAEWOO BUS",
+  "units": 16,
+  "units_ytd": 16
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "Toyota",
+  "units": 8642,
+  "units_ytd": 66576
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "Mitsubishi",
+  "units": 3808,
+  "units_ytd": 41198
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "Ford",
+  "units": 3492,
+  "units_ytd": 42175
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "THACO MAZDA",
+  "units": 2846,
+  "units_ytd": 32601
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "Honda",
+  "units": 2374,
+  "units_ytd": 28267
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "THACO KIA",
+  "units": 2052,
+  "units_ytd": 34570
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "THACO TRUCK",
+  "units": 1212,
+  "units_ytd": 15996
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "Isuzu",
+  "units": 851,
+  "units_ytd": 10522
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "Suzuki",
+  "units": 661,
+  "units_ytd": 10262
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "PEUGEOT",
+  "units": 463,
+  "units_ytd": 3490
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "BUS THACO",
+  "units": 188,
+  "units_ytd": 2255
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "Hino",
+  "units": 126,
+  "units_ytd": 1464
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "VINAMOTOR",
+  "units": 25,
+  "units_ytd": 371
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "SAMCO",
+  "units": 11,
+  "units_ytd": 297
+ },
+ {
+  "year": 2024,
+  "month": 12,
+  "maker": "DAEWOO BUS",
+  "units": 6,
+  "units_ytd": 117
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "Toyota",
+  "units": 8695,
+  "units_ytd": 57934
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "Ford",
+  "units": 5593,
+  "units_ytd": 38683
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "THACO KIA",
+  "units": 5299,
+  "units_ytd": 32518
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "Mitsubishi",
+  "units": 5056,
+  "units_ytd": 37390
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "Honda",
+  "units": 4633,
+  "units_ytd": 25893
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "THACO MAZDA",
+  "units": 4548,
+  "units_ytd": 29755
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "THACO TRUCK",
+  "units": 1940,
+  "units_ytd": 14784
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "Isuzu",
+  "units": 1354,
+  "units_ytd": 9671
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "Suzuki",
+  "units": 877,
+  "units_ytd": 9601
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "PEUGEOT",
+  "units": 494,
+  "units_ytd": 3027
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "BUS THACO",
+  "units": 193,
+  "units_ytd": 2067
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "Hino",
+  "units": 123,
+  "units_ytd": 1338
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "SAMCO",
+  "units": 48,
+  "units_ytd": 286
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "DAEWOO BUS",
+  "units": 30,
+  "units_ytd": 111
+ },
+ {
+  "year": 2024,
+  "month": 11,
+  "maker": "VINAMOTOR",
+  "units": 27,
+  "units_ytd": 346
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "Toyota",
+  "units": 8736,
+  "units_ytd": 49239
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "Ford",
+  "units": 5052,
+  "units_ytd": 33090
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "Mitsubishi",
+  "units": 4401,
+  "units_ytd": 32334
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "THACO KIA",
+  "units": 4271,
+  "units_ytd": 27219
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "THACO MAZDA",
+  "units": 3933,
+  "units_ytd": 25207
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "Honda",
+  "units": 3606,
+  "units_ytd": 21260
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "THACO TRUCK",
+  "units": 1650,
+  "units_ytd": 12844
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "Isuzu",
+  "units": 1257,
+  "units_ytd": 8317
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "Suzuki",
+  "units": 739,
+  "units_ytd": 8724
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "PEUGEOT",
+  "units": 401,
+  "units_ytd": 2533
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "BUS THACO",
+  "units": 210,
+  "units_ytd": 1874
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "Hino",
+  "units": 81,
+  "units_ytd": 1215
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "VINAMOTOR",
+  "units": 30,
+  "units_ytd": 319
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "DAEWOO BUS",
+  "units": 29,
+  "units_ytd": 81
+ },
+ {
+  "year": 2024,
+  "month": 10,
+  "maker": "SAMCO",
+  "units": 8,
+  "units_ytd": 238
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "Toyota",
+  "units": 6986,
+  "units_ytd": 40503
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "Mitsubishi",
+  "units": 5385,
+  "units_ytd": 27933
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "THACO KIA",
+  "units": 4015,
+  "units_ytd": 22948
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "Ford",
+  "units": 3967,
+  "units_ytd": 28038
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "Honda",
+  "units": 3607,
+  "units_ytd": 17654
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "THACO MAZDA",
+  "units": 3583,
+  "units_ytd": 21274
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "THACO TRUCK",
+  "units": 1438,
+  "units_ytd": 11194
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "Isuzu",
+  "units": 1110,
+  "units_ytd": 7060
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "Suzuki",
+  "units": 780,
+  "units_ytd": 7985
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "PEUGEOT",
+  "units": 261,
+  "units_ytd": 2132
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "BUS THACO",
+  "units": 182,
+  "units_ytd": 1664
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "Hino",
+  "units": 89,
+  "units_ytd": 1134
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "VINAMOTOR",
+  "units": 27,
+  "units_ytd": 289
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "DAEWOO BUS",
+  "units": 17,
+  "units_ytd": 52
+ },
+ {
+  "year": 2024,
+  "month": 9,
+  "maker": "SAMCO",
+  "units": 9,
+  "units_ytd": 230
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "Toyota",
+  "units": 4700,
+  "units_ytd": 33516
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "Mitsubishi",
+  "units": 4091,
+  "units_ytd": 22548
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "Ford",
+  "units": 3270,
+  "units_ytd": 24071
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "THACO MAZDA",
+  "units": 2509,
+  "units_ytd": 17691
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "THACO KIA",
+  "units": 2247,
+  "units_ytd": 18933
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "THACO TRUCK",
+  "units": 1288,
+  "units_ytd": 9756
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "Honda",
+  "units": 1160,
+  "units_ytd": 14047
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "Isuzu",
+  "units": 770,
+  "units_ytd": 5950
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "Suzuki",
+  "units": 469,
+  "units_ytd": 7205
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "PEUGEOT",
+  "units": 257,
+  "units_ytd": 1871
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "BUS THACO",
+  "units": 198,
+  "units_ytd": 1482
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "Hino",
+  "units": 79,
+  "units_ytd": 1045
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "VINAMOTOR",
+  "units": 29,
+  "units_ytd": 262
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "SAMCO",
+  "units": 18,
+  "units_ytd": 221
+ },
+ {
+  "year": 2024,
+  "month": 8,
+  "maker": "DAEWOO BUS",
+  "units": 7,
+  "units_ytd": 35
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "Toyota",
+  "units": 6479,
+  "units_ytd": 28816
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "Mitsubishi",
+  "units": 3835,
+  "units_ytd": 18457
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "Ford",
+  "units": 3150,
+  "units_ytd": 20801
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "THACO KIA",
+  "units": 2679,
+  "units_ytd": 16686
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "THACO MAZDA",
+  "units": 2503,
+  "units_ytd": 15182
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "Honda",
+  "units": 2406,
+  "units_ytd": 12887
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "THACO TRUCK",
+  "units": 1220,
+  "units_ytd": 8468
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "Isuzu",
+  "units": 1044,
+  "units_ytd": 5180
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "Suzuki",
+  "units": 377,
+  "units_ytd": 6736
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "PEUGEOT",
+  "units": 261,
+  "units_ytd": 1614
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "BUS THACO",
+  "units": 206,
+  "units_ytd": 1284
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "Hino",
+  "units": 109,
+  "units_ytd": 966
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "VINAMOTOR",
+  "units": 25,
+  "units_ytd": 233
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "SAMCO",
+  "units": 11,
+  "units_ytd": 203
+ },
+ {
+  "year": 2024,
+  "month": 7,
+  "maker": "DAEWOO BUS",
+  "units": 4,
+  "units_ytd": 28
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "Toyota",
+  "units": 5178,
+  "units_ytd": 22338
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "Ford",
+  "units": 3307,
+  "units_ytd": 17651
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "Mitsubishi",
+  "units": 2913,
+  "units_ytd": 14622
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "THACO KIA",
+  "units": 2874,
+  "units_ytd": 14007
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "THACO MAZDA",
+  "units": 2562,
+  "units_ytd": 12679
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "Honda",
+  "units": 1381,
+  "units_ytd": 10481
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "THACO TRUCK",
+  "units": 1302,
+  "units_ytd": 7248
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "Isuzu",
+  "units": 828,
+  "units_ytd": 4136
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "Suzuki",
+  "units": 410,
+  "units_ytd": 6359
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "PEUGEOT",
+  "units": 287,
+  "units_ytd": 1353
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "BUS THACO",
+  "units": 244,
+  "units_ytd": 1078
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "Hino",
+  "units": 109,
+  "units_ytd": 859
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "VINAMOTOR",
+  "units": 52,
+  "units_ytd": 208
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "SAMCO",
+  "units": 30,
+  "units_ytd": 192
+ },
+ {
+  "year": 2024,
+  "month": 6,
+  "maker": "DAEWOO BUS",
+  "units": null,
+  "units_ytd": 24
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "Toyota",
+  "units": 5356,
+  "units_ytd": 17160
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "Ford",
+  "units": 3270,
+  "units_ytd": 14344
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "Mitsubishi",
+  "units": 3151,
+  "units_ytd": 11709
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "THACO KIA",
+  "units": 2315,
+  "units_ytd": 11133
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "THACO MAZDA",
+  "units": 2290,
+  "units_ytd": 10117
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "THACO TRUCK",
+  "units": 1488,
+  "units_ytd": 5946
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "Honda",
+  "units": 1179,
+  "units_ytd": 9100
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "Isuzu",
+  "units": 812,
+  "units_ytd": 3308
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "Suzuki",
+  "units": 753,
+  "units_ytd": 5949
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "PEUGEOT",
+  "units": 234,
+  "units_ytd": 1066
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "BUS THACO",
+  "units": 221,
+  "units_ytd": 834
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "Hino",
+  "units": 148,
+  "units_ytd": 750
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "VINAMOTOR",
+  "units": 31,
+  "units_ytd": 156
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "SAMCO",
+  "units": 25,
+  "units_ytd": 162
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "maker": "DAEWOO BUS",
+  "units": null,
+  "units_ytd": 24
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "Toyota",
+  "units": 4483,
+  "units_ytd": 11804
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "Ford",
+  "units": 3053,
+  "units_ytd": 11074
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "THACO KIA",
+  "units": 2539,
+  "units_ytd": 8818
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "Mitsubishi",
+  "units": 2508,
+  "units_ytd": 8558
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "THACO MAZDA",
+  "units": 2150,
+  "units_ytd": 7827
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "Honda",
+  "units": 1802,
+  "units_ytd": 7921
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "THACO TRUCK",
+  "units": 1470,
+  "units_ytd": 4458
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "Suzuki",
+  "units": 1185,
+  "units_ytd": 5196
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "Isuzu",
+  "units": 796,
+  "units_ytd": 2496
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "BUS THACO",
+  "units": 216,
+  "units_ytd": 613
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "PEUGEOT",
+  "units": 210,
+  "units_ytd": 832
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "Hino",
+  "units": 119,
+  "units_ytd": 602
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "SAMCO",
+  "units": 33,
+  "units_ytd": 137
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "VINAMOTOR",
+  "units": 29,
+  "units_ytd": 125
+ },
+ {
+  "year": 2024,
+  "month": 4,
+  "maker": "DAEWOO BUS",
+  "units": 12,
+  "units_ytd": 24
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "Toyota",
+  "units": 3865,
+  "units_ytd": 7321
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "Ford",
+  "units": 3686,
+  "units_ytd": 8021
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "Mitsubishi",
+  "units": 3439,
+  "units_ytd": 6050
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "Honda",
+  "units": 2832,
+  "units_ytd": 6119
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "THACO KIA",
+  "units": 2524,
+  "units_ytd": 6279
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "THACO MAZDA",
+  "units": 2350,
+  "units_ytd": 5677
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "Suzuki",
+  "units": 1750,
+  "units_ytd": 4011
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "THACO TRUCK",
+  "units": 1653,
+  "units_ytd": 2988
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "Isuzu",
+  "units": 866,
+  "units_ytd": 1700
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "Hino",
+  "units": 283,
+  "units_ytd": 483
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "PEUGEOT",
+  "units": 231,
+  "units_ytd": 622
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "BUS THACO",
+  "units": 165,
+  "units_ytd": 397
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "VINAMOTOR",
+  "units": 33,
+  "units_ytd": 96
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "SAMCO",
+  "units": 24,
+  "units_ytd": 104
+ },
+ {
+  "year": 2024,
+  "month": 3,
+  "maker": "DAEWOO BUS",
+  "units": 12,
+  "units_ytd": 12
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "Ford",
+  "units": 1664,
+  "units_ytd": 4335
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "THACO KIA",
+  "units": 1386,
+  "units_ytd": 3755
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "THACO MAZDA",
+  "units": 1355,
+  "units_ytd": 3327
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "Honda",
+  "units": 1264,
+  "units_ytd": 3287
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "Toyota",
+  "units": 1248,
+  "units_ytd": 3456
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "Mitsubishi",
+  "units": 818,
+  "units_ytd": 2611
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "THACO TRUCK",
+  "units": 731,
+  "units_ytd": 1335
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "Suzuki",
+  "units": 667,
+  "units_ytd": 2261
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "Isuzu",
+  "units": 352,
+  "units_ytd": 834
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "PEUGEOT",
+  "units": 167,
+  "units_ytd": 391
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "BUS THACO",
+  "units": 82,
+  "units_ytd": 232
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "Hino",
+  "units": 67,
+  "units_ytd": 200
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "VINAMOTOR",
+  "units": 36,
+  "units_ytd": 63
+ },
+ {
+  "year": 2024,
+  "month": 2,
+  "maker": "SAMCO",
+  "units": 16,
+  "units_ytd": 80
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "Ford",
+  "units": 2671,
+  "units_ytd": 2671
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "THACO KIA",
+  "units": 2369,
+  "units_ytd": 2369
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "Toyota",
+  "units": 2208,
+  "units_ytd": 2208
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "Honda",
+  "units": 2023,
+  "units_ytd": 2023
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "THACO MAZDA",
+  "units": 1972,
+  "units_ytd": 1972
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "Mitsubishi",
+  "units": 1793,
+  "units_ytd": 1793
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "Suzuki",
+  "units": 1594,
+  "units_ytd": 1594
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "THACO TRUCK",
+  "units": 604,
+  "units_ytd": 604
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "Isuzu",
+  "units": 482,
+  "units_ytd": 482
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "PEUGEOT",
+  "units": 224,
+  "units_ytd": 224
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "BUS THACO",
+  "units": 150,
+  "units_ytd": 150
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "Hino",
+  "units": 133,
+  "units_ytd": 133
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "SAMCO",
+  "units": 64,
+  "units_ytd": 64
+ },
+ {
+  "year": 2024,
+  "month": 1,
+  "maker": "VINAMOTOR",
+  "units": 27,
+  "units_ytd": 27
+ }
+]

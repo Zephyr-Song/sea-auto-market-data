@@ -1,0 +1,410 @@
+[
+ {
+  "year": 2026,
+  "month": 6,
+  "level": "powertrain",
+  "category": "BEV",
+  "units": 22275,
+  "yoy_pct": 140.47
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "level": "powertrain",
+  "category": "HEV",
+  "units": 10504,
+  "yoy_pct": 3.08
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "level": "powertrain",
+  "category": "ICE",
+  "units": 8114,
+  "yoy_pct": -33.72
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "level": "powertrain",
+  "category": "PHEV",
+  "units": 1469,
+  "yoy_pct": 163.73
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "level": "powertrain",
+  "category": "REEV",
+  "units": 58,
+  "yoy_pct": null
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "level": "segment",
+  "category": "PICKUP_1T",
+  "units": 10805,
+  "yoy_pct": -3.17
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "level": "segment",
+  "category": "PPV",
+  "units": 2983,
+  "yoy_pct": -26.02
+ },
+ {
+  "year": 2026,
+  "month": 6,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 58724,
+  "yoy_pct": 17.26
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "level": "powertrain",
+  "category": "BEV",
+  "units": 18034,
+  "yoy_pct": 61.19
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "level": "powertrain",
+  "category": "ICE",
+  "units": 8435,
+  "yoy_pct": -38.74
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "level": "powertrain",
+  "category": "REEV",
+  "units": 73,
+  "yoy_pct": 100.0
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "level": "segment",
+  "category": "PICKUP_1T",
+  "units": 11171,
+  "yoy_pct": 0.21
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "level": "segment",
+  "category": "PPV",
+  "units": 3164,
+  "yoy_pct": 2.1
+ },
+ {
+  "year": 2026,
+  "month": 5,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 57765,
+  "yoy_pct": 10.6
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "level": "powertrain",
+  "category": "BEV",
+  "units": 13882,
+  "yoy_pct": 27.35
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "level": "powertrain",
+  "category": "HEV",
+  "units": 11204,
+  "yoy_pct": 41.75
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "level": "powertrain",
+  "category": "ICE",
+  "units": 7109,
+  "yoy_pct": -35.18
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "level": "powertrain",
+  "category": "PHEV",
+  "units": 1023,
+  "yoy_pct": -5.54
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "level": "powertrain",
+  "category": "REEV",
+  "units": 436,
+  "yoy_pct": 100.0
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "level": "segment",
+  "category": "PICKUP_1T",
+  "units": 9831,
+  "yoy_pct": -10.11
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "level": "segment",
+  "category": "PPV",
+  "units": 2619,
+  "yoy_pct": -16.57
+ },
+ {
+  "year": 2026,
+  "month": 4,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 48394,
+  "yoy_pct": 2.54
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "level": "powertrain",
+  "category": "ICE",
+  "units": null,
+  "yoy_pct": null
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "level": "powertrain",
+  "category": "REEV",
+  "units": null,
+  "yoy_pct": null
+ },
+ {
+  "year": 2026,
+  "month": 3,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 59865,
+  "yoy_pct": 7.29
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "level": "powertrain",
+  "category": "BEV",
+  "units": 31859,
+  "yoy_pct": 353.9
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "level": "powertrain",
+  "category": "ICE",
+  "units": 10485,
+  "yoy_pct": -12.24
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "level": "powertrain",
+  "category": "PHEV",
+  "units": 899,
+  "yoy_pct": -6.84
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "level": "powertrain",
+  "category": "REEV",
+  "units": 63,
+  "yoy_pct": null
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "level": "segment",
+  "category": "PICKUP_1T",
+  "units": 11507,
+  "yoy_pct": -6.12
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "level": "segment",
+  "category": "PPV",
+  "units": 4132,
+  "yoy_pct": 30.88
+ },
+ {
+  "year": 2026,
+  "month": 1,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 73936,
+  "yoy_pct": 53.77
+ },
+ {
+  "year": 2025,
+  "month": 12,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 75121,
+  "yoy_pct": 39.0
+ },
+ {
+  "year": 2025,
+  "month": 10,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 47032,
+  "yoy_pct": 24.7
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "level": "powertrain",
+  "category": "BEV",
+  "units": 9107,
+  "yoy_pct": 99.1
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "level": "powertrain",
+  "category": "HEV",
+  "units": 12764,
+  "yoy_pct": 108.73
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "level": "powertrain",
+  "category": "ICE",
+  "units": 9065,
+  "yoy_pct": -22.08
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "level": "powertrain",
+  "category": "PHEV",
+  "units": 637,
+  "yoy_pct": 223.35
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "level": "powertrain",
+  "category": "REEV",
+  "units": 149,
+  "yoy_pct": 100.0
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "level": "segment",
+  "category": "PICKUP_1T",
+  "units": null,
+  "yoy_pct": null
+ },
+ {
+  "year": 2025,
+  "month": 9,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 48350,
+  "yoy_pct": 23.82
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "level": "powertrain",
+  "category": "HEV",
+  "units": 10190,
+  "yoy_pct": 3.49
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "level": "powertrain",
+  "category": "ICE",
+  "units": 12242,
+  "yoy_pct": -3.36
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "level": "powertrain",
+  "category": "PHEV",
+  "units": 557,
+  "yoy_pct": 150.9
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "level": "segment",
+  "category": "PICKUP_1T",
+  "units": 11153,
+  "yoy_pct": -20.74
+ },
+ {
+  "year": 2025,
+  "month": 6,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 50079,
+  "yoy_pct": 5.0
+ },
+ {
+  "year": 2025,
+  "month": 4,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 47193,
+  "yoy_pct": 0.97
+ },
+ {
+  "year": 2025,
+  "month": 3,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 55798,
+  "yoy_pct": null
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "level": "segment",
+  "category": "PPV",
+  "units": 3102,
+  "yoy_pct": 0.91
+ },
+ {
+  "year": 2025,
+  "month": 1,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 48092,
+  "yoy_pct": -12.26
+ },
+ {
+  "year": 2024,
+  "month": 5,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 49871,
+  "yoy_pct": -23.38
+ }
+]

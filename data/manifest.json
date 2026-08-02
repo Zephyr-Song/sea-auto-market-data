@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-08-02T08:43:22+00:00",
+  "export_row_counts": {
+    "sales_monthly": 12261,
+    "sales_vn_model": 2821,
+    "sales_vn_maker": 439,
+    "sales_th_monthly": 51,
+    "news_articles": 180,
+    "data_quality_flags": 28
+  },
+  "sales_coverage": [
+    {
+      "country": "TH",
+      "source": "fti",
+      "first_period": 202405,
+      "last_period": 202606,
+      "months": 13,
+      "rows": 51
+    },
+    {
+      "country": "VN",
+      "source": "vama",
+      "first_period": 202401,
+      "last_period": 202606,
+      "months": 30,
+      "rows": 12210
+    }
+  ],
+  "news_coverage": [
+    {
+      "country": "TH",
+      "source": "autolifethailand",
+      "items": 10,
+      "oldest": "2026-07-31T08:46:20+00:00",
+      "newest": "2026-08-02T01:00:37+00:00"
+    },
+    {
+      "country": "TH",
+      "source": "headlightmag",
+      "items": 10,
+      "oldest": "2026-07-31T04:42:33+00:00",
+      "newest": "2026-08-01T11:56:18+00:00"
+    },
+    {
+      "country": "VN",
+      "source": "thanhnien-xe",
+      "items": 50,
+      "oldest": "2026-07-23T08:48:00+00:00",
+      "newest": "2026-08-02T03:13:00+00:00"
+    },
+    {
+      "country": "VN",
+      "source": "tuoitre-xe",
+      "items": 50,
+      "oldest": "7/26/2026 2:08:00 PM",
+      "newest": "8/2/2026 9:51:00 AM"
+    },
+    {
+      "country": "VN",
+      "source": "vnexpress-oto",
+      "items": 60,
+      "oldest": "2026-07-27T22:00:00+00:00",
+      "newest": "2026-08-02T04:01:53+00:00"
+    }
+  ],
+  "recent_runs": [
+    {
+      "source": "rss:news",
+      "status": "ok",
+      "started_at": "2026-08-02T08:43:05+00:00",
+      "rows_in": 180,
+      "message": ""
+    },
+    {
+      "source": "fti:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:42:39+00:00",
+      "rows_in": 51,
+      "message": ""
+    },
+    {
+      "source": "vama:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:39:40+00:00",
+      "rows_in": 12210,
+      "message": ""
+    },
+    {
+      "source": "vama:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:35:09+00:00",
+      "rows_in": 12210,
+      "message": ""
+    },
+    {
+      "source": "vama:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:27:51+00:00",
+      "rows_in": 11965,
+      "message": ""
+    },
+    {
+      "source": "vama:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:21:05+00:00",
+      "rows_in": 12324,
+      "message": ""
+    },
+    {
+      "source": "vama:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:14:13+00:00",
+      "rows_in": 12355,
+      "message": ""
+    },
+    {
+      "source": "rss:news",
+      "status": "ok",
+      "started_at": "2026-08-02T07:57:33+00:00",
+      "rows_in": 180,
+      "message": ""
+    },
+    {
+      "source": "fti:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T07:57:08+00:00",
+      "rows_in": 51,
+      "message": ""
+    },
+    {
+      "source": "vama:sales",
+      "status": "error",
+      "started_at": "2026-08-02T07:56:12+00:00",
+      "rows_in": 444,
+      "message": "OverflowError: Python int too large to convert to SQLite INTEGER"
+    },
+    {
+      "source": "fti:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T07:51:32+00:00",
+      "rows_in": 8,
+      "message": ""
+    },
+    {
+      "source": "fti:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T07:30:32+00:00",
+      "rows_in": 35,
+      "message": ""
+    }
+  ]
+}
