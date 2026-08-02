@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T08:57:54+00:00",
+  "generated_at": "2026-08-02T09:06:03+00:00",
   "export_row_counts": {
     "sales_monthly": 12261,
     "sales_vn_model": 2821,
@@ -117,85 +117,22 @@
     {
       "source": "rss:news",
       "status": "ok",
-      "started_at": "2026-08-02T08:57:38+00:00",
+      "started_at": "2026-08-02T09:05:48+00:00",
       "rows_in": 180,
       "message": ""
     },
     {
       "source": "fti:sales",
       "status": "ok",
-      "started_at": "2026-08-02T08:57:12+00:00",
+      "started_at": "2026-08-02T09:05:24+00:00",
       "rows_in": 51,
       "message": ""
     },
     {
       "source": "vama:sales",
       "status": "ok",
-      "started_at": "2026-08-02T08:54:24+00:00",
+      "started_at": "2026-08-02T09:02:07+00:00",
       "rows_in": 12210,
-      "message": ""
-    },
-    {
-      "source": "rss:news",
-      "status": "ok",
-      "started_at": "2026-08-02T08:43:05+00:00",
-      "rows_in": 180,
-      "message": ""
-    },
-    {
-      "source": "fti:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T08:42:39+00:00",
-      "rows_in": 51,
-      "message": ""
-    },
-    {
-      "source": "vama:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T08:39:40+00:00",
-      "rows_in": 12210,
-      "message": ""
-    },
-    {
-      "source": "vama:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T08:35:09+00:00",
-      "rows_in": 12210,
-      "message": ""
-    },
-    {
-      "source": "vama:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T08:27:51+00:00",
-      "rows_in": 11965,
-      "message": ""
-    },
-    {
-      "source": "vama:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T08:21:05+00:00",
-      "rows_in": 12324,
-      "message": ""
-    },
-    {
-      "source": "vama:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T08:14:13+00:00",
-      "rows_in": 12355,
-      "message": ""
-    },
-    {
-      "source": "rss:news",
-      "status": "ok",
-      "started_at": "2026-08-02T07:57:33+00:00",
-      "rows_in": 180,
-      "message": ""
-    },
-    {
-      "source": "fti:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T07:57:08+00:00",
-      "rows_in": 51,
       "message": ""
     }
   ]
