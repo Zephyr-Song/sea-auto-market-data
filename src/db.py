@@ -89,7 +89,7 @@ CREATE TABLE IF NOT EXISTS data_quality_flags (
 SALES_COLS = (
     "country", "year", "month", "level", "maker", "model", "category", "seats",
     "region", "units", "units_ytd", "yoy_pct", "is_subtotal", "source",
-    "source_url", "fetched_at",
+    "source_url", "source_name", "source_site", "fetched_at",
 )
 
 
@@ -107,6 +107,21 @@ def connect() -> sqlite3.Connection:
 def init_db() -> None:
     with connect() as conn:
         conn.executescript(SCHEMA)
+    migrate()
+
+
+def migrate() -> None:
+    """Add provenance columns to an existing warehouse without losing data."""
+    with connect() as conn:
+        for table, col, dtype in (
+            ("sales_monthly", "source_name", "TEXT NOT NULL DEFAULT ''"),
+            ("sales_monthly", "source_site", "TEXT NOT NULL DEFAULT ''"),
+            ("news_articles", "source_site", "TEXT NOT NULL DEFAULT ''"),
+        ):
+            existing = {r["name"] for r in conn.execute(
+                f"PRAGMA table_info({table})")}
+            if col not in existing:
+                conn.execute(f"ALTER TABLE {table} ADD COLUMN {col} {dtype}")
 
 
 @contextmanager
@@ -162,6 +177,7 @@ def upsert_sales(rows: Iterable[Mapping[str, Any]]) -> int:
         "DO UPDATE SET units=excluded.units, units_ytd=excluded.units_ytd, "
         "yoy_pct=excluded.yoy_pct, seats=excluded.seats, "
         "is_subtotal=excluded.is_subtotal, source_url=excluded.source_url, "
+        "source_name=excluded.source_name, source_site=excluded.source_site, "
         "fetched_at=excluded.fetched_at"
     )
     with connect() as conn:
@@ -177,15 +193,17 @@ def upsert_news(rows: Iterable[Mapping[str, Any]]) -> int:
     payload = [
         (
             r["country"], r["source"], r.get("lang", ""), r["title"], r["url"],
-            r.get("published_at"), r.get("summary", ""), r.get("categories", ""), now,
+            r.get("published_at"), r.get("summary", ""), r.get("categories", ""),
+            r.get("source_site", ""), now,
         )
         for r in rows
     ]
     sql = (
         "INSERT INTO news_articles(country, source, lang, title, url, published_at, "
-        "summary, categories, fetched_at) VALUES (?,?,?,?,?,?,?,?,?) "
+        "summary, categories, source_site, fetched_at) VALUES (?,?,?,?,?,?,?,?,?,?) "
         "ON CONFLICT(url) DO UPDATE SET title=excluded.title, "
-        "summary=excluded.summary, categories=excluded.categories"
+        "summary=excluded.summary, categories=excluded.categories, "
+        "source_site=excluded.source_site"
     )
     with connect() as conn:
         conn.executemany(sql, payload)

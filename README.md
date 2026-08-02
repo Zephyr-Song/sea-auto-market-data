@@ -25,6 +25,25 @@ CSV/JSON. A scheduled GitHub Action refreshes it on the 1st of every month.
 - **Subtotals.** VAMA `Sub-total` / `Total` rows are kept but tagged via
   `is_subtotal = 1` so aggregate queries can exclude them.
 
+## Provenance — where every figure comes from
+
+Every row carries explicit source attribution so the dataset is self-describing
+and auditable. The `sales_monthly` and `news_articles` tables both carry:
+
+| column | meaning |
+| --- | --- |
+| `source` | short code: `vama` (Vietnam) / `fti` (Thailand) / news feed key |
+| `source_url` | the exact webpage or PDF the value was crawled from |
+| `source_name` | publishing organisation, e.g. *"VAMA (Vietnam Automobile Manufacturers' Association)"* |
+| `source_site` | the website domain crawled, e.g. `vama.org.vn` |
+
+So a Vietnam model row reads `source_site = vama.org.vn`, `source_url =
+http://vama.org.vn/vn/bao-cao-ban-hang-thang-6-nam-2026.html`; a Thailand row
+reads `source_site = autolifethailand.tv` with the briefing post URL. News items
+carry `source_site` (e.g. `vnexpress.net`) plus the article `url`. The manifest
+(`data/manifest.json`) also records the full source registry — organisation,
+site, entry URL, and coverage note — under `sources`.
+
 ## Repository layout
 
 ```
@@ -70,6 +89,10 @@ One row per `(country, year, month, level, maker, model, category, region, sourc
 | `yoy_pct` | year-over-year % (Thai `ลดลง` negated automatically) |
 | `region` | `North` \| `Central` \| `South` \| `ALL` (VAMA only) |
 | `is_subtotal` | 1 for VAMA Sub-total/Total roll-up rows |
+| `source` | source code: `vama` / `fti` / news feed key |
+| `source_url` | exact webpage/PDF the value was crawled from |
+| `source_name` | publishing organisation (provenance) |
+| `source_site` | website domain crawled, e.g. `vama.org.vn` (provenance) |
 
 ## Automation
 

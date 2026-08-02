@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T08:43:22+00:00",
+  "generated_at": "2026-08-02T08:57:54+00:00",
   "export_row_counts": {
     "sales_monthly": 12261,
     "sales_vn_model": 2821,
@@ -7,6 +7,56 @@
     "sales_th_monthly": 51,
     "news_articles": 180,
     "data_quality_flags": 28
+  },
+  "sources": {
+    "sales": {
+      "vama": {
+        "name": "VAMA (Vietnam Automobile Manufacturers' Association)",
+        "site": "vama.org.vn",
+        "url": "http://vama.org.vn",
+        "country": "VN",
+        "note": "Member companies only; VinFast (and some periods Hyundai Thanh Cong) publish separately and are absent."
+      },
+      "fti": {
+        "name": "FTI (Federation of Thai Industries) via AutoLife Thailand",
+        "site": "autolifethailand.tv",
+        "url": "https://autolifethailand.tv",
+        "country": "TH",
+        "note": "Official FTI automotive-club figures, republished in full by AutoLife Thailand; Thai Buddhist Era calendar (BE-543 = CE)."
+      }
+    },
+    "news": {
+      "headlightmag": {
+        "name": "Headlight Magazine",
+        "site": "headlightmag.com",
+        "url": "https://www.headlightmag.com/feed/",
+        "country": "TH"
+      },
+      "autolifethailand": {
+        "name": "AutoLife Thailand",
+        "site": "autolifethailand.tv",
+        "url": "https://autolifethailand.tv/feed/",
+        "country": "TH"
+      },
+      "vnexpress-oto": {
+        "name": "VnExpress Ô tô",
+        "site": "vnexpress.net",
+        "url": "https://vnexpress.net/rss/oto-xe-may.rss",
+        "country": "VN"
+      },
+      "tuoitre-xe": {
+        "name": "Tuổi Trẻ Xe",
+        "site": "tuoitre.vn",
+        "url": "https://tuoitre.vn/rss/xe.rss",
+        "country": "VN"
+      },
+      "thanhnien-xe": {
+        "name": "Thanh Niên Xe",
+        "site": "thanhnien.vn",
+        "url": "https://thanhnien.vn/rss/xe.rss",
+        "country": "VN"
+      }
+    }
   },
   "sales_coverage": [
     {
@@ -64,6 +114,27 @@
     }
   ],
   "recent_runs": [
+    {
+      "source": "rss:news",
+      "status": "ok",
+      "started_at": "2026-08-02T08:57:38+00:00",
+      "rows_in": 180,
+      "message": ""
+    },
+    {
+      "source": "fti:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:57:12+00:00",
+      "rows_in": 51,
+      "message": ""
+    },
+    {
+      "source": "vama:sales",
+      "status": "ok",
+      "started_at": "2026-08-02T08:54:24+00:00",
+      "rows_in": 12210,
+      "message": ""
+    },
     {
       "source": "rss:news",
       "status": "ok",
@@ -125,27 +196,6 @@
       "status": "ok",
       "started_at": "2026-08-02T07:57:08+00:00",
       "rows_in": 51,
-      "message": ""
-    },
-    {
-      "source": "vama:sales",
-      "status": "error",
-      "started_at": "2026-08-02T07:56:12+00:00",
-      "rows_in": 444,
-      "message": "OverflowError: Python int too large to convert to SQLite INTEGER"
-    },
-    {
-      "source": "fti:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T07:51:32+00:00",
-      "rows_in": 8,
-      "message": ""
-    },
-    {
-      "source": "fti:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T07:30:32+00:00",
-      "rows_in": 35,
       "message": ""
     }
   ]

@@ -31,7 +31,7 @@ from __future__ import annotations
 
 import re
 
-from ..config import ALT_API, THAI_MONTHS, BE_OFFSET
+from ..config import ALT_API, THAI_MONTHS, BE_OFFSET, SOURCES
 from .. import db
 from .base import get, strip_html, to_int, to_float
 
@@ -156,6 +156,8 @@ def parse_briefing(text: str, url: str) -> tuple[int, int, list[dict]] | None:
         "maker": "", "model": "", "seats": "", "region": "ALL",
         "units_ytd": None, "is_subtotal": 0,
         "source": SOURCE, "source_url": url,
+        "source_name": SOURCES[SOURCE]["name"],
+        "source_site": SOURCES[SOURCE]["site"],
     }
 
     # TOTAL (monthly) from the headline sentence.

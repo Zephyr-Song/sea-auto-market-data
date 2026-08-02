@@ -56,6 +56,7 @@ def fetch(full: bool = False, limit: int | None = None) -> int:
                     "published_at": _published(e),
                     "summary": strip_html(e.get("summary", ""))[:800],
                     "categories": cats,
+                    "source_site": feed["site"],
                 })
             n = db.upsert_news(rows)
             total += n

@@ -32,17 +32,46 @@ VAMA_START = (2024, 1)  # earliest month published on the current site
 ALT_API = "https://autolifethailand.tv/wp-json/wp/v2/posts"
 ALT_SEARCH_TERMS = ["ยอดขายรถยนต์", "ยอดขาย รถยนต์"]
 
+# --- Data-source registry (provenance) ---------------------------------------
+# Every sales row is tagged with the organisation that published the figure and
+# the website it was actually crawled from, so the exported data is
+# self-describing. ``site`` is the exact domain crawled; ``name`` is the
+# publisher; ``url`` is the entry point.
+SOURCES = {
+    "vama": {
+        "name": "VAMA (Vietnam Automobile Manufacturers' Association)",
+        "site": "vama.org.vn",
+        "url": "http://vama.org.vn",
+        "country": "VN",
+        "note": "Member companies only; VinFast (and some periods Hyundai "
+                "Thanh Cong) publish separately and are absent.",
+    },
+    "fti": {
+        "name": "FTI (Federation of Thai Industries) via AutoLife Thailand",
+        "site": "autolifethailand.tv",
+        "url": "https://autolifethailand.tv",
+        "country": "TH",
+        "note": "Official FTI automotive-club figures, republished in full by "
+                "AutoLife Thailand; Thai Buddhist Era calendar (BE-543 = CE).",
+    },
+}
+
 # --- News feeds ---------------------------------------------------------------
 NEWS_FEEDS = [
     {"country": "TH", "source": "headlightmag", "lang": "th",
+     "site": "headlightmag.com", "name": "Headlight Magazine",
      "url": "https://www.headlightmag.com/feed/"},
     {"country": "TH", "source": "autolifethailand", "lang": "th",
+     "site": "autolifethailand.tv", "name": "AutoLife Thailand",
      "url": "https://autolifethailand.tv/feed/"},
     {"country": "VN", "source": "vnexpress-oto", "lang": "vi",
+     "site": "vnexpress.net", "name": "VnExpress Ô tô",
      "url": "https://vnexpress.net/rss/oto-xe-may.rss"},
     {"country": "VN", "source": "tuoitre-xe", "lang": "vi",
+     "site": "tuoitre.vn", "name": "Tuổi Trẻ Xe",
      "url": "https://tuoitre.vn/rss/xe.rss"},
     {"country": "VN", "source": "thanhnien-xe", "lang": "vi",
+     "site": "thanhnien.vn", "name": "Thanh Niên Xe",
      "url": "https://thanhnien.vn/rss/xe.rss"},
 ]
 

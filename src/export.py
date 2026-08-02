@@ -10,13 +10,14 @@ import csv
 import json
 from datetime import datetime, timezone
 
-from .config import CSV_DIR, JSON_DIR, DATA_DIR
+from .config import CSV_DIR, JSON_DIR, DATA_DIR, SOURCES, NEWS_FEEDS
 from .db import connect
 
 EXPORTS: dict[str, str] = {
     "sales_monthly": """
         SELECT country, year, month, level, maker, model, category, seats,
-               region, units, units_ytd, yoy_pct, is_subtotal, source, source_url
+               region, units, units_ytd, yoy_pct, is_subtotal, source, source_url,
+               source_name, source_site
         FROM sales_monthly
         ORDER BY country, year DESC, month DESC, level, maker, model, region
     """,
@@ -39,7 +40,7 @@ EXPORTS: dict[str, str] = {
         ORDER BY year DESC, month DESC, level, category
     """,
     "news_articles": """
-        SELECT country, source, lang, published_at, title, url, categories
+        SELECT country, source, lang, published_at, title, url, source_site, categories
         FROM news_articles
         ORDER BY published_at DESC, source
     """,
@@ -98,6 +99,18 @@ def _write_manifest(counts: dict[str, int]) -> None:
     manifest = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "export_row_counts": counts,
+        "sources": {
+            "sales": {
+                code: {"name": s["name"], "site": s["site"], "url": s["url"],
+                       "country": s["country"], "note": s["note"]}
+                for code, s in SOURCES.items()
+            },
+            "news": {
+                f["source"]: {"name": f["name"], "site": f["site"], "url": f["url"],
+                              "country": f["country"]}
+                for f in NEWS_FEEDS
+            },
+        },
         "sales_coverage": [dict(r) for r in cov],
         "news_coverage": [dict(r) for r in news],
         "recent_runs": [dict(r) for r in runs],

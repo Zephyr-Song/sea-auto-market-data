@@ -29,7 +29,7 @@ from datetime import date
 
 import pdfplumber
 
-from ..config import VAMA_REPORT_URL, VAMA_START, RAW_DIR, MONTH_NAMES_EN
+from ..config import VAMA_REPORT_URL, VAMA_START, RAW_DIR, MONTH_NAMES_EN, SOURCES
 from .. import db
 from .base import get, download, to_int
 
@@ -208,6 +208,8 @@ def parse_detail_pdf(path, year: int, month: int, source_url: str) -> list[dict]
                         "category": cells[C_CLASS], "seats": cells[C_SEAT],
                         "is_subtotal": int(is_subtotal),
                         "source": SOURCE, "source_url": source_url,
+                        "source_name": SOURCES[SOURCE]["name"],
+                        "source_site": SOURCES[SOURCE]["site"],
                     }
                     rows.append({**base, "region": "ALL",
                                  "units": m_total, "units_ytd": y_total})
