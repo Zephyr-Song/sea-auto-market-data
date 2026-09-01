@@ -1,4 +1,98 @@
 year,month,maker,model,vama_class,seats,units,units_ytd
+2026,7,THACO TRUCK,Truck,Light truck,2 seats,1817,14336
+2026,7,Toyota,Yaris Cross,SUV,5 seats,1503,8542
+2026,7,THACO MAZDA,CX-5,Crossover,5 seats,1229,9352
+2026,7,Mitsubishi,Xforce,SUV,5 seats,1170,7469
+2026,7,Honda Honda,CITY,Sedan,5 seats,1034,4556
+2026,7,Ford,Territory,MPV,5 seats,980,7124
+2026,7,Isuzu,Truck,Other Truck,3 seats,973,5906
+2026,7,Toyota,Vios,Sedan,5 seats,968,5517
+2026,7,Mitsubishi,Xpander (CBU),MPV,7 seats,942,7145
+2026,7,Toyota,Veloz Cross,MPV,7 seats,899,5996
+2026,7,Ford,Everest,SUV,7 seats,849,6950
+2026,7,THACO KIA,Seltos,Crossover,5 seats,742,5271
+2026,7,Mitsubishi,Destinator,SUV,7 seats,725,5914
+2026,7,Toyota,Hilux,Pick-up,5 seats,718,4699
+2026,7,Ford,Ranger CKD,Pick-up,5 seats,711,6270
+2026,7,Toyota,Innova Cross,MPV,8 seats,681,3793
+2026,7,THACO KIA,Sonet,Crossover,5 seats,638,4619
+2026,7,THACO MAZDA,Mazda2,Sedan,5 seats,560,3152
+2026,7,Toyota,Corolla Cross Hybrid,Hybrid,5 seats,472,3272
+2026,7,THACO KIA,Carnival,MPV,7 seats,461,2775
+2026,7,THACO KIA,Sportage,SUV,5 seats,433,1371
+2026,7,THACO KIA7. VA,CMareAnssendtomedia_July26,SUV,Pa7g seeats 1,426,
+2026,7,Honda,HR-V,SUV,5 seats,387,2261
+2026,7,Toyota,Innova Cross Hybrid,Hybrid,7 seats,365,2876
+2026,7,Ford,Transit,Minibus,16 seats,321,2252
+2026,7,THACO MAZDA,CX-8,SUV,7 seats,305,2086
+2026,7,Toyota,Yaris Cross Hybrid,Hybrid,5 seats,278,1385
+2026,7,Honda,BR-V,MPV,7 seats,262,1532
+2026,7,Ford,Ranger CBU,Pick-up,5 seats,262,1689
+2026,7,Suzuki,Super Carry Pro,Small truck,2 seats,212,1707
+2026,7,Honda,CR-V Hybrid (2026),Hybrid,5 seats,202,2033
+2026,7,THACO MAZDA,Mazda3,Sedan,5 seats,194,1760
+2026,7,Toyota,Wigo,Sedan,5 seats,194,397
+2026,7,JMC,IZ,Light truck,,190,1363
+2026,7,Hino,HINO,Other Truck,3 seats,184,1851
+2026,7,Toyota,Fortuner (CBU),SUV,7 seats,178,781
+2026,7,Toyota,Corolla Cross,SUV,5 seats,176,1087
+2026,7,Toyota,Raize,SUV,5 seats,142,1694
+2026,7,Mitsubishi,Triton,Pick-up,5 seats,141,1681
+2026,7,Mitsubishi,Xpander (CKD),MPV,7 seats,141,1729
+2026,7,Honda,CR-V,SUV,7 seats,132,1855
+2026,7,THACO PREMIUM,Peugeot,Peugeot,7 seats,131,801
+2026,7,BUS THACO,Bus,Large bus,12 ~ 45 seats,130,1193
+2026,7,THACO KIA,Sorento,SUV,7 seats,123,686
+2026,7,Suzuki,XL7 Hybrid,Hybrid,7 seats,122,1117
+2026,7,Suzuki,Fronx,SUV,5 seats,121,765
+2026,7,THACO MAZDA,CX-3,SUV,5 seats,118,707
+2026,7,THACO MAZDA,CX-30,SUV,5 seats,115,714
+2026,7,Mitsubishi,Attrage,Sedan,5 seats,97,814
+2026,7,Toyota,Camry Hybrid,Hybrid,5 seats,91,575
+2026,7,Honda,HR-V Hybrid,Hybrid 5 seats,,78,723
+2026,7,Toyota,Landcruiser,SUV,7 seats,72,449
+2026,7,Missu Tải,Missu,Small truck,,58,166
+2026,7,Isuzu,D-Max,Pick-up,5 seats,55,425
+2026,7,Suzuki,Swift,Hatchback,5 seats,42,197
+2026,7,Suzuki,EECO,Van,2 seats,38,409
+2026,7,Toyota,Land Prado,SUV,7 seats,37,232
+2026,7,THACO MAZDA,Xe khác,SUV,,36,84
+2026,7,Toyota,Avanza Premio CKD,MPV,7 seats,35,462
+2026,7,Honda,Civic,Sedan,5 seats,33,159
+2026,7,Suzuki,Jimny,SUV,4 seats,33,187
+2026,7,Toyota,Land Cruiser FJ,SUV,5 seats,30,30
+2026,7,Toyota,Alphard Hybrid,Hybrid,7 seats,27,204
+2026,7,Isuzu,mu-X,SUV,7 seats,18,100
+2026,7,Isuzu,Bus Chassis,Chassis,,12,83
+2026,7,Ford,Mach-E,BEV,5 seats,6,76
+2026,7,SAMCO,SAMCO 24 CN ~ 46CN,Medium bus,27 seats,5,37
+2026,7,YUCHAI YCS06 270,YCS06 GR29S06,Medium bus,29 seats,2,5
+2026,7,YUCHAI YCK11 410,LIMOUSINE GR26-YCK11,Medium bus,26 seats,2,3
+2026,7,VIDABUS,G12,Large bus,47 seats,1,26
+2026,7,VIDABUS,G8,Large bus,29-34 seats,1,6
+2026,7,Honda,Civic Hybrid,Hybrid,5 seats,1,314
+2026,7,VIDABUS,GVD090,City bus,60 seats,,1
+2026,7,Daewoo Truck,HC/HU,Light truck,,,2
+2026,7,Daewoo Truck,CL4TF/CL4T8/CL4DF,Light truck,,,18
+2026,7,Missu Van,Missu,Van,,,36
+2026,7,NGVANG NS700 + DV,8D0O0NGVANG NS700,Light truck,2~3,,153
+2026,7,YUCHAI YCK05 248,YCK05 GR24S,Medium bus,24 seats,,2
+2026,7,YUCHAI YCK05 248,UNIVERSE K29S-YCK05,Medium bus,29 seats,,2
+2026,7,YUCHAI YCK11 410,LIMOUSINE GR24W-YCK11,Medium bus,24 seats,,3
+2026,7,YUCHAI 6MK 385,UNIVERSE K47S-YE5,Large bus,47 seats,,2
+2026,7,Honda,Civic TypeR,Others,5 seats,,1
+2026,7,THACO KIA,Xe khác,Others,5 seats,,931
+2026,7,SAMCO,Hooklift,Hooklift (SPV),3 seats,,3
+2026,7,SAMCO,Fire truck,Fire fighting truck (SPV),7 seats,,2
+2026,7,SAMCO,Vaccum tank truck,Vaccum tank truck (SPV),3 seats,,4
+2026,7,SAMCO,Garbage compactor truck,Garbage compactor truck (SPV),3 seats,,4
+2026,7,SAMCO,SAMCO B40 ~ B80,Large bus,40 seats,,70
+2026,7,Toyota,Alphard,MPV,7 seats,,11
+2026,7,Toyota,Fortuner,SUV,7 seats,,183
+2026,7,Toyota,Corolla Hybrid,Hybrid,6 seats,,2
+2026,7,Toyota,Corolla,Sedan,5 seats,,14
+2026,7,Toyota,Camry,Sedan,5 seats,,75
+2026,7,Mitsubishi,Pajero Sport,SUV,7 seats,,81
 2026,6,THACO TRUCK,Truck,Light truck,2 seats,2173,12519
 2026,6,THACO MAZDA,CX-5,Crossover,5 seats,1144,8123
 2026,6,Mitsubishi,Xforce,SUV,5 seats,1095,6299

@@ -9,7 +9,7 @@
 | New-car total + powertrain | FTI (autolifethailand.tv) | — (VAMA has no powertrain split) |
 | Brand/model monthly sales | Publicity Top (publicitytop.com) | VAMA model-level PDF |
 | Regional split | — (FTI national only) | North/Central/South (VAMA) |
-| Marketplace inventory | Kaidee (9,575 ads) | — |
+| Marketplace inventory | Kaidee (9,557 ads) | — |
 | News/launches | HeadlightMag, AutoLife RSS | VnExpress, Tuổi Trẻ, Thanh Niên RSS |
 
 ## 2. Brand leadership, side by side

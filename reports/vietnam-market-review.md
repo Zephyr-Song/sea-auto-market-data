@@ -6,13 +6,13 @@
 
 | Metric | Value |
 | --- | --- |
-| Data window (VAMA) | 2024-01 → 2026-06 |
-| Months covered | 30 |
-| Latest month (member) sales | 23,686 units |
+| Data window (VAMA) | 2024-01 → 2026-07 |
+| Months covered | 31 |
+| Latest month (member) sales | 24,607 units |
 | Period low / high | 9,853 / 38,910 |
-| Top maker (latest) | Toyota (6,494, 27.4%) |
-| Top model (latest) | Truck (2,173) |
-| Regional split (N/C/S) | 10,098 / 4,636 / 8,952 |
+| Top maker (latest) | Toyota (6,866, 27.9%) |
+| Top model (latest) | Truck (1,817) |
+| Regional split (N/C/S) | 10,216 / 5,376 / 9,015 |
 
 ## 2. Monthly sales trend
 
@@ -24,19 +24,19 @@ VAMA member sales (this excludes VinFast and part-period Hyundai) track a market
 
 ![Vietnam top makers](data/analysis/vn_02_top_makers.png)
 
-Toyota leads comfortably (27.4% in the latest month, 2026-06); Mitsubishi, Ford, THACO KIA and Hyundai (where reported) follow. Unlike Thailand, **Chinese brands are barely present in VAMA data** — VinFast (domestic EV leader) is not a VAMA member, so the EV story is invisible in this dataset.
+Toyota leads comfortably (27.9% in the latest month, 2026-07); Mitsubishi, Ford, THACO KIA and Hyundai (where reported) follow. Unlike Thailand, **Chinese brands are barely present in VAMA data** — VinFast (domestic EV leader) is not a VAMA member, so the EV story is invisible in this dataset.
 
 ## 4. Best-selling models
 
 ![Vietnam top models](data/analysis/vn_03_top_models.png)
 
-Top model in 2026-06: **Truck** (2,173 units). Mitsubishi Xpander, Toyota Veloz/Vios and Ford Ranger-type pickups/SUV consistently rank high.
+Top model in 2026-07: **Truck** (1,817 units). Mitsubishi Xpander, Toyota Veloz/Vios and Ford Ranger-type pickups/SUV consistently rank high.
 
 ## 5. Regional structure
 
 ![Vietnam regional split](data/analysis/vn_04_region_split.png)
 
-VAMA splits every month into North / Central / South. In the latest month (2026-06): North **10,098**, Central **4,636**, South **8,952**. The South (Ho Chi Minh City + Mekong Delta) is the largest regional market, with the North (Hanoi) close behind.
+VAMA splits every month into North / Central / South. In the latest month (2026-07): North **10,216**, Central **5,376**, South **9,015**. The South (Ho Chi Minh City + Mekong Delta) is the largest regional market, with the North (Hanoi) close behind.
 
 ## 6. Conclusions
 

@@ -1,6 +1,14 @@
 [
  {
   "year": 2026,
+  "month": 7,
+  "level": "total",
+  "category": "TOTAL",
+  "units": 59196,
+  "yoy_pct": 20.07
+ },
+ {
+  "year": 2026,
   "month": 6,
   "level": "powertrain",
   "category": "BEV",

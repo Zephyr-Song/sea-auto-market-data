@@ -1,6 +1,946 @@
 [
  {
   "year": 2026,
+  "month": 7,
+  "maker": "THACO TRUCK",
+  "model": "Truck",
+  "vama_class": "Light truck",
+  "seats": "2 seats",
+  "units": 1817,
+  "units_ytd": 14336
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Yaris Cross",
+  "vama_class": "SUV",
+  "seats": "5 seats",
+  "units": 1503,
+  "units_ytd": 8542
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO MAZDA",
+  "model": "CX-5",
+  "vama_class": "Crossover",
+  "seats": "5 seats",
+  "units": 1229,
+  "units_ytd": 9352
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Mitsubishi",
+  "model": "Xforce",
+  "vama_class": "SUV",
+  "seats": "5 seats",
+  "units": 1170,
+  "units_ytd": 7469
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Honda Honda",
+  "model": "CITY",
+  "vama_class": "Sedan",
+  "seats": "5 seats",
+  "units": 1034,
+  "units_ytd": 4556
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Ford",
+  "model": "Territory",
+  "vama_class": "MPV",
+  "seats": "5 seats",
+  "units": 980,
+  "units_ytd": 7124
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Isuzu",
+  "model": "Truck",
+  "vama_class": "Other Truck",
+  "seats": "3 seats",
+  "units": 973,
+  "units_ytd": 5906
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Vios",
+  "vama_class": "Sedan",
+  "seats": "5 seats",
+  "units": 968,
+  "units_ytd": 5517
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Mitsubishi",
+  "model": "Xpander (CBU)",
+  "vama_class": "MPV",
+  "seats": "7 seats",
+  "units": 942,
+  "units_ytd": 7145
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Veloz Cross",
+  "vama_class": "MPV",
+  "seats": "7 seats",
+  "units": 899,
+  "units_ytd": 5996
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Ford",
+  "model": "Everest",
+  "vama_class": "SUV",
+  "seats": "7 seats",
+  "units": 849,
+  "units_ytd": 6950
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO KIA",
+  "model": "Seltos",
+  "vama_class": "Crossover",
+  "seats": "5 seats",
+  "units": 742,
+  "units_ytd": 5271
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Mitsubishi",
+  "model": "Destinator",
+  "vama_class": "SUV",
+  "seats": "7 seats",
+  "units": 725,
+  "units_ytd": 5914
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Hilux",
+  "vama_class": "Pick-up",
+  "seats": "5 seats",
+  "units": 718,
+  "units_ytd": 4699
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Ford",
+  "model": "Ranger CKD",
+  "vama_class": "Pick-up",
+  "seats": "5 seats",
+  "units": 711,
+  "units_ytd": 6270
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Innova Cross",
+  "vama_class": "MPV",
+  "seats": "8 seats",
+  "units": 681,
+  "units_ytd": 3793
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO KIA",
+  "model": "Sonet",
+  "vama_class": "Crossover",
+  "seats": "5 seats",
+  "units": 638,
+  "units_ytd": 4619
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO MAZDA",
+  "model": "Mazda2",
+  "vama_class": "Sedan",
+  "seats": "5 seats",
+  "units": 560,
+  "units_ytd": 3152
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Corolla Cross Hybrid",
+  "vama_class": "Hybrid",
+  "seats": "5 seats",
+  "units": 472,
+  "units_ytd": 3272
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO KIA",
+  "model": "Carnival",
+  "vama_class": "MPV",
+  "seats": "7 seats",
+  "units": 461,
+  "units_ytd": 2775
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO KIA",
+  "model": "Sportage",
+  "vama_class": "SUV",
+  "seats": "5 seats",
+  "units": 433,
+  "units_ytd": 1371
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO KIA7. VA",
+  "model": "CMareAnssendtomedia_July26",
+  "vama_class": "SUV",
+  "seats": "Pa7g seeats 1",
+  "units": 426,
+  "units_ytd": null
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Honda",
+  "model": "HR-V",
+  "vama_class": "SUV",
+  "seats": "5 seats",
+  "units": 387,
+  "units_ytd": 2261
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Innova Cross Hybrid",
+  "vama_class": "Hybrid",
+  "seats": "7 seats",
+  "units": 365,
+  "units_ytd": 2876
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Ford",
+  "model": "Transit",
+  "vama_class": "Minibus",
+  "seats": "16 seats",
+  "units": 321,
+  "units_ytd": 2252
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO MAZDA",
+  "model": "CX-8",
+  "vama_class": "SUV",
+  "seats": "7 seats",
+  "units": 305,
+  "units_ytd": 2086
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Yaris Cross Hybrid",
+  "vama_class": "Hybrid",
+  "seats": "5 seats",
+  "units": 278,
+  "units_ytd": 1385
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Honda",
+  "model": "BR-V",
+  "vama_class": "MPV",
+  "seats": "7 seats",
+  "units": 262,
+  "units_ytd": 1532
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Ford",
+  "model": "Ranger CBU",
+  "vama_class": "Pick-up",
+  "seats": "5 seats",
+  "units": 262,
+  "units_ytd": 1689
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Suzuki",
+  "model": "Super Carry Pro",
+  "vama_class": "Small truck",
+  "seats": "2 seats",
+  "units": 212,
+  "units_ytd": 1707
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Honda",
+  "model": "CR-V Hybrid (2026)",
+  "vama_class": "Hybrid",
+  "seats": "5 seats",
+  "units": 202,
+  "units_ytd": 2033
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO MAZDA",
+  "model": "Mazda3",
+  "vama_class": "Sedan",
+  "seats": "5 seats",
+  "units": 194,
+  "units_ytd": 1760
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Wigo",
+  "vama_class": "Sedan",
+  "seats": "5 seats",
+  "units": 194,
+  "units_ytd": 397
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "JMC",
+  "model": "IZ",
+  "vama_class": "Light truck",
+  "seats": "",
+  "units": 190,
+  "units_ytd": 1363
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Hino",
+  "model": "HINO",
+  "vama_class": "Other Truck",
+  "seats": "3 seats",
+  "units": 184,
+  "units_ytd": 1851
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Fortuner (CBU)",
+  "vama_class": "SUV",
+  "seats": "7 seats",
+  "units": 178,
+  "units_ytd": 781
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Corolla Cross",
+  "vama_class": "SUV",
+  "seats": "5 seats",
+  "units": 176,
+  "units_ytd": 1087
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Raize",
+  "vama_class": "SUV",
+  "seats": "5 seats",
+  "units": 142,
+  "units_ytd": 1694
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Mitsubishi",
+  "model": "Triton",
+  "vama_class": "Pick-up",
+  "seats": "5 seats",
+  "units": 141,
+  "units_ytd": 1681
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Mitsubishi",
+  "model": "Xpander (CKD)",
+  "vama_class": "MPV",
+  "seats": "7 seats",
+  "units": 141,
+  "units_ytd": 1729
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Honda",
+  "model": "CR-V",
+  "vama_class": "SUV",
+  "seats": "7 seats",
+  "units": 132,
+  "units_ytd": 1855
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO PREMIUM",
+  "model": "Peugeot",
+  "vama_class": "Peugeot",
+  "seats": "7 seats",
+  "units": 131,
+  "units_ytd": 801
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "BUS THACO",
+  "model": "Bus",
+  "vama_class": "Large bus",
+  "seats": "12 ~ 45 seats",
+  "units": 130,
+  "units_ytd": 1193
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO KIA",
+  "model": "Sorento",
+  "vama_class": "SUV",
+  "seats": "7 seats",
+  "units": 123,
+  "units_ytd": 686
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Suzuki",
+  "model": "XL7 Hybrid",
+  "vama_class": "Hybrid",
+  "seats": "7 seats",
+  "units": 122,
+  "units_ytd": 1117
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Suzuki",
+  "model": "Fronx",
+  "vama_class": "SUV",
+  "seats": "5 seats",
+  "units": 121,
+  "units_ytd": 765
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO MAZDA",
+  "model": "CX-3",
+  "vama_class": "SUV",
+  "seats": "5 seats",
+  "units": 118,
+  "units_ytd": 707
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO MAZDA",
+  "model": "CX-30",
+  "vama_class": "SUV",
+  "seats": "5 seats",
+  "units": 115,
+  "units_ytd": 714
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Mitsubishi",
+  "model": "Attrage",
+  "vama_class": "Sedan",
+  "seats": "5 seats",
+  "units": 97,
+  "units_ytd": 814
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Camry Hybrid",
+  "vama_class": "Hybrid",
+  "seats": "5 seats",
+  "units": 91,
+  "units_ytd": 575
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Honda",
+  "model": "HR-V Hybrid",
+  "vama_class": "Hybrid 5 seats",
+  "seats": "",
+  "units": 78,
+  "units_ytd": 723
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Landcruiser",
+  "vama_class": "SUV",
+  "seats": "7 seats",
+  "units": 72,
+  "units_ytd": 449
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Missu Tải",
+  "model": "Missu",
+  "vama_class": "Small truck",
+  "seats": "",
+  "units": 58,
+  "units_ytd": 166
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Isuzu",
+  "model": "D-Max",
+  "vama_class": "Pick-up",
+  "seats": "5 seats",
+  "units": 55,
+  "units_ytd": 425
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Suzuki",
+  "model": "Swift",
+  "vama_class": "Hatchback",
+  "seats": "5 seats",
+  "units": 42,
+  "units_ytd": 197
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Suzuki",
+  "model": "EECO",
+  "vama_class": "Van",
+  "seats": "2 seats",
+  "units": 38,
+  "units_ytd": 409
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Land Prado",
+  "vama_class": "SUV",
+  "seats": "7 seats",
+  "units": 37,
+  "units_ytd": 232
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO MAZDA",
+  "model": "Xe khác",
+  "vama_class": "SUV",
+  "seats": "",
+  "units": 36,
+  "units_ytd": 84
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Avanza Premio CKD",
+  "vama_class": "MPV",
+  "seats": "7 seats",
+  "units": 35,
+  "units_ytd": 462
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Honda",
+  "model": "Civic",
+  "vama_class": "Sedan",
+  "seats": "5 seats",
+  "units": 33,
+  "units_ytd": 159
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Suzuki",
+  "model": "Jimny",
+  "vama_class": "SUV",
+  "seats": "4 seats",
+  "units": 33,
+  "units_ytd": 187
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Land Cruiser FJ",
+  "vama_class": "SUV",
+  "seats": "5 seats",
+  "units": 30,
+  "units_ytd": 30
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Alphard Hybrid",
+  "vama_class": "Hybrid",
+  "seats": "7 seats",
+  "units": 27,
+  "units_ytd": 204
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Isuzu",
+  "model": "mu-X",
+  "vama_class": "SUV",
+  "seats": "7 seats",
+  "units": 18,
+  "units_ytd": 100
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Isuzu",
+  "model": "Bus Chassis",
+  "vama_class": "Chassis",
+  "seats": "",
+  "units": 12,
+  "units_ytd": 83
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Ford",
+  "model": "Mach-E",
+  "vama_class": "BEV",
+  "seats": "5 seats",
+  "units": 6,
+  "units_ytd": 76
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "SAMCO",
+  "model": "SAMCO 24 CN ~ 46CN",
+  "vama_class": "Medium bus",
+  "seats": "27 seats",
+  "units": 5,
+  "units_ytd": 37
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "YUCHAI YCS06 270",
+  "model": "YCS06 GR29S06",
+  "vama_class": "Medium bus",
+  "seats": "29 seats",
+  "units": 2,
+  "units_ytd": 5
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "YUCHAI YCK11 410",
+  "model": "LIMOUSINE GR26-YCK11",
+  "vama_class": "Medium bus",
+  "seats": "26 seats",
+  "units": 2,
+  "units_ytd": 3
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "VIDABUS",
+  "model": "G12",
+  "vama_class": "Large bus",
+  "seats": "47 seats",
+  "units": 1,
+  "units_ytd": 26
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "VIDABUS",
+  "model": "G8",
+  "vama_class": "Large bus",
+  "seats": "29-34 seats",
+  "units": 1,
+  "units_ytd": 6
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Honda",
+  "model": "Civic Hybrid",
+  "vama_class": "Hybrid",
+  "seats": "5 seats",
+  "units": 1,
+  "units_ytd": 314
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "VIDABUS",
+  "model": "GVD090",
+  "vama_class": "City bus",
+  "seats": "60 seats",
+  "units": null,
+  "units_ytd": 1
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Daewoo Truck",
+  "model": "HC/HU",
+  "vama_class": "Light truck",
+  "seats": "",
+  "units": null,
+  "units_ytd": 2
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Daewoo Truck",
+  "model": "CL4TF/CL4T8/CL4DF",
+  "vama_class": "Light truck",
+  "seats": "",
+  "units": null,
+  "units_ytd": 18
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Missu Van",
+  "model": "Missu",
+  "vama_class": "Van",
+  "seats": "",
+  "units": null,
+  "units_ytd": 36
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "NGVANG NS700 + DV",
+  "model": "8D0O0NGVANG NS700",
+  "vama_class": "Light truck",
+  "seats": "2~3",
+  "units": null,
+  "units_ytd": 153
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "YUCHAI YCK05 248",
+  "model": "YCK05 GR24S",
+  "vama_class": "Medium bus",
+  "seats": "24 seats",
+  "units": null,
+  "units_ytd": 2
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "YUCHAI YCK05 248",
+  "model": "UNIVERSE K29S-YCK05",
+  "vama_class": "Medium bus",
+  "seats": "29 seats",
+  "units": null,
+  "units_ytd": 2
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "YUCHAI YCK11 410",
+  "model": "LIMOUSINE GR24W-YCK11",
+  "vama_class": "Medium bus",
+  "seats": "24 seats",
+  "units": null,
+  "units_ytd": 3
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "YUCHAI 6MK 385",
+  "model": "UNIVERSE K47S-YE5",
+  "vama_class": "Large bus",
+  "seats": "47 seats",
+  "units": null,
+  "units_ytd": 2
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Honda",
+  "model": "Civic TypeR",
+  "vama_class": "Others",
+  "seats": "5 seats",
+  "units": null,
+  "units_ytd": 1
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "THACO KIA",
+  "model": "Xe khác",
+  "vama_class": "Others",
+  "seats": "5 seats",
+  "units": null,
+  "units_ytd": 931
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "SAMCO",
+  "model": "Hooklift",
+  "vama_class": "Hooklift (SPV)",
+  "seats": "3 seats",
+  "units": null,
+  "units_ytd": 3
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "SAMCO",
+  "model": "Fire truck",
+  "vama_class": "Fire fighting truck (SPV)",
+  "seats": "7 seats",
+  "units": null,
+  "units_ytd": 2
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "SAMCO",
+  "model": "Vaccum tank truck",
+  "vama_class": "Vaccum tank truck (SPV)",
+  "seats": "3 seats",
+  "units": null,
+  "units_ytd": 4
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "SAMCO",
+  "model": "Garbage compactor truck",
+  "vama_class": "Garbage compactor truck (SPV)",
+  "seats": "3 seats",
+  "units": null,
+  "units_ytd": 4
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "SAMCO",
+  "model": "SAMCO B40 ~ B80",
+  "vama_class": "Large bus",
+  "seats": "40 seats",
+  "units": null,
+  "units_ytd": 70
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Alphard",
+  "vama_class": "MPV",
+  "seats": "7 seats",
+  "units": null,
+  "units_ytd": 11
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Fortuner",
+  "vama_class": "SUV",
+  "seats": "7 seats",
+  "units": null,
+  "units_ytd": 183
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Corolla Hybrid",
+  "vama_class": "Hybrid",
+  "seats": "6 seats",
+  "units": null,
+  "units_ytd": 2
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Corolla",
+  "vama_class": "Sedan",
+  "seats": "5 seats",
+  "units": null,
+  "units_ytd": 14
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Toyota",
+  "model": "Camry",
+  "vama_class": "Sedan",
+  "seats": "5 seats",
+  "units": null,
+  "units_ytd": 75
+ },
+ {
+  "year": 2026,
+  "month": 7,
+  "maker": "Mitsubishi",
+  "model": "Pajero Sport",
+  "vama_class": "SUV",
+  "seats": "7 seats",
+  "units": null,
+  "units_ytd": 81
+ },
+ {
+  "year": 2026,
   "month": 6,
   "maker": "THACO TRUCK",
   "model": "Truck",

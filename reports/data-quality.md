@@ -6,23 +6,23 @@
 
 | Table | Rows |
 | --- | --- |
-| sales_monthly | 13496 |
-| th_car_listings | 9575 |
+| sales_monthly | 13900 |
+| th_car_listings | 9557 |
 | news_articles | 180 |
 | data_quality_flags | 28 |
-| fetch_runs | 22 |
+| fetch_runs | 4 |
 
 ## 2. Rows per country (all tables)
 
 | Slice | Rows |
 | --- | --- |
-| TH — sales_monthly | 1286 |
-| VN — sales_monthly | 12210 |
-| TH — th_car_listings | 9575 |
+| TH — sales_monthly | 1287 |
+| VN — sales_monthly | 12613 |
+| TH — th_car_listings | 9557 |
 | TH — news_articles | 20 |
 | VN — news_articles | 160 |
 
-**Thailand total: 10,881 rows | Vietnam total: 12,370 rows** (both > 10,000 ✓)
+**Thailand total: 10,864 rows | Vietnam total: 12,773 rows** (both > 10,000 ✓)
 
 ## 3. Sales coverage (source × level)
 
@@ -30,16 +30,16 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | TH | fti | powertrain | 27 | 7 | 202506 | 202606 |
 | TH | fti | segment | 11 | 7 | 202501 | 202606 |
-| TH | fti | total | 13 | 13 | 202405 | 202606 |
+| TH | fti | total | 14 | 14 | 202405 | 202607 |
 | TH | publicitytop | maker | 534 | 16 | 202408 | 202601 |
 | TH | publicitytop | model | 701 | 16 | 202408 | 202601 |
-| VN | vama | maker | 1716 | 30 | 202401 | 202606 |
-| VN | vama | model | 10494 | 30 | 202401 | 202606 |
+| VN | vama | maker | 1776 | 31 | 202401 | 202607 |
+| VN | vama | model | 10837 | 31 | 202401 | 202607 |
 
 ## 4. Provenance completeness
 
-- `sales_monthly`: 13,496/13,496 rows carry full source attribution.
-- `th_car_listings`: 9,575/9,575 rows carry full source attribution.
+- `sales_monthly`: 13,900/13,900 rows carry full source attribution.
+- `th_car_listings`: 9,557/9,557 rows carry full source attribution.
 - `news_articles`: 180/180 rows carry full source attribution.
 
 ## 5. Sanity checks

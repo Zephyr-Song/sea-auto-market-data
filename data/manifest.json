@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-02T14:07:41+00:00",
+  "generated_at": "2026-09-01T07:32:38+00:00",
   "export_row_counts": {
-    "sales_monthly": 13496,
-    "sales_vn_model": 2821,
-    "sales_vn_maker": 439,
-    "sales_th_monthly": 1286,
+    "sales_monthly": 13900,
+    "sales_vn_model": 2915,
+    "sales_vn_maker": 454,
+    "sales_th_monthly": 1287,
     "news_articles": 180,
-    "th_car_listings": 9575,
+    "th_car_listings": 9557,
     "data_quality_flags": 28
   },
   "sources": {
@@ -78,9 +78,9 @@
       "country": "TH",
       "source": "fti",
       "first_period": 202405,
-      "last_period": 202606,
-      "months": 13,
-      "rows": 51
+      "last_period": 202607,
+      "months": 14,
+      "rows": 52
     },
     {
       "country": "TH",
@@ -94,16 +94,16 @@
       "country": "VN",
       "source": "vama",
       "first_period": 202401,
-      "last_period": 202606,
-      "months": 30,
-      "rows": 12210
+      "last_period": 202607,
+      "months": 31,
+      "rows": 12613
     }
   ],
   "listings_summary": {
-    "rows": 9575,
-    "makers": 45,
-    "provinces": 67,
-    "min_year": 1956,
+    "rows": 9557,
+    "makers": 52,
+    "provinces": 62,
+    "min_year": 1961,
     "max_year": 2026
   },
   "news_coverage": [
@@ -111,121 +111,65 @@
       "country": "TH",
       "source": "autolifethailand",
       "items": 10,
-      "oldest": "2026-07-31T08:46:20+00:00",
-      "newest": "2026-08-02T01:00:37+00:00"
+      "oldest": "2026-08-31T06:39:14+00:00",
+      "newest": "2026-09-01T03:42:42+00:00"
     },
     {
       "country": "TH",
       "source": "headlightmag",
       "items": 10,
-      "oldest": "2026-07-31T04:42:33+00:00",
-      "newest": "2026-08-01T11:56:18+00:00"
+      "oldest": "2026-08-30T13:56:56+00:00",
+      "newest": "2026-09-01T03:16:48+00:00"
     },
     {
       "country": "VN",
       "source": "thanhnien-xe",
       "items": 50,
-      "oldest": "2026-07-23T08:48:00+00:00",
-      "newest": "2026-08-02T03:13:00+00:00"
+      "oldest": "2026-08-22T07:39:00+00:00",
+      "newest": "2026-09-01T01:33:00+00:00"
     },
     {
       "country": "VN",
       "source": "tuoitre-xe",
       "items": 50,
-      "oldest": "7/26/2026 2:08:00 PM",
-      "newest": "8/2/2026 9:51:00 AM"
+      "oldest": "8/26/2026 12:02:00 PM",
+      "newest": "9/1/2026 9:45:00 AM"
     },
     {
       "country": "VN",
       "source": "vnexpress-oto",
       "items": 60,
-      "oldest": "2026-07-27T22:00:00+00:00",
-      "newest": "2026-08-02T04:01:53+00:00"
+      "oldest": "2026-08-25T06:54:07+00:00",
+      "newest": "2026-09-01T03:50:00+00:00"
     }
   ],
   "recent_runs": [
     {
-      "source": "publicitytop:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T14:03:15+00:00",
-      "rows_in": 1265,
-      "message": ""
-    },
-    {
-      "source": "publicitytop:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T14:00:23+00:00",
-      "rows_in": 1251,
-      "message": ""
-    },
-    {
-      "source": "publicitytop:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T13:54:16+00:00",
-      "rows_in": 1232,
-      "message": ""
-    },
-    {
-      "source": "publicitytop:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T13:51:09+00:00",
-      "rows_in": 3051,
-      "message": ""
-    },
-    {
-      "source": "publicitytop:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T13:47:14+00:00",
-      "rows_in": 3253,
-      "message": ""
-    },
-    {
-      "source": "publicitytop:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T13:25:10+00:00",
-      "rows_in": 3279,
-      "message": ""
-    },
-    {
-      "source": "publicitytop:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T13:22:29+00:00",
-      "rows_in": 856,
-      "message": ""
-    },
-    {
       "source": "rss:news",
       "status": "ok",
-      "started_at": "2026-08-02T08:57:38+00:00",
+      "started_at": "2026-09-01T07:32:19+00:00",
       "rows_in": 180,
+      "message": ""
+    },
+    {
+      "source": "publicitytop:sales",
+      "status": "ok",
+      "started_at": "2026-09-01T07:31:53+00:00",
+      "rows_in": 1265,
       "message": ""
     },
     {
       "source": "fti:sales",
       "status": "ok",
-      "started_at": "2026-08-02T08:57:12+00:00",
-      "rows_in": 51,
+      "started_at": "2026-09-01T07:03:44+00:00",
+      "rows_in": 52,
       "message": ""
     },
     {
       "source": "vama:sales",
       "status": "ok",
-      "started_at": "2026-08-02T08:54:24+00:00",
-      "rows_in": 12210,
-      "message": ""
-    },
-    {
-      "source": "rss:news",
-      "status": "ok",
-      "started_at": "2026-08-02T08:43:05+00:00",
-      "rows_in": 180,
-      "message": ""
-    },
-    {
-      "source": "fti:sales",
-      "status": "ok",
-      "started_at": "2026-08-02T08:42:39+00:00",
-      "rows_in": 51,
+      "started_at": "2026-09-01T07:00:17+00:00",
+      "rows_in": 12613,
       "message": ""
     }
   ]

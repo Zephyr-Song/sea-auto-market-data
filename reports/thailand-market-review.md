@@ -6,16 +6,16 @@
 
 | Metric | Value |
 | --- | --- |
-| Data window (FTI total) | 2024-05 → 2026-06 |
-| Months covered (FTI total) | 13 |
-| Latest month total market | 58,724 units |
+| Data window (FTI total) | 2024-05 → 2026-07 |
+| Months covered (FTI total) | 14 |
+| Latest month total market | 59,196 units |
 | Period low / high | 47,032 / 75,121 |
 | Latest electrified share (FTI) | 80.9% |
 | Chinese-brand share (latest) | 46.3%  (2024-08→2026-01) |
 | Brands tracked (latest month) | 36 |
-| Marketplace listings (Kaidee) | 9,575 |
-| Median asking price | 469,000 THB |
-| New vs Used (listings) | 195 new / 9,380 used |
+| Marketplace listings (Kaidee) | 9,557 |
+| Median asking price | 459,000 THB |
+| New vs Used (listings) | 167 new / 9,390 used |
 
 ## 2. Total market & year-on-year
 
@@ -53,7 +53,7 @@ Top model in 2026-01: **Gr** (8,968 units). Pickup trucks (Isuzu D-Max, Toyota H
 
 ![Fuel & condition](data/analysis/th_10_fuel_condition.png)
 
-The Kaidee inventory snapshot (9,575 ads) is the high-volume layer that mirrors the Japan project's carsensor/goo-net method. Median asking price is **469,000 THB** (P25 318,000 / P75 709,000). Inventory is heavily concentrated in **Bangkok** (6,592 ads, 68.8% of all listings), confirming the used-car market is a Bangkok-metro phenomenon. Hybrid vehicles are **7.9%** of listings — high versus most markets, reflecting Thai buyers' hybrid preference.
+The Kaidee inventory snapshot (9,557 ads) is the high-volume layer that mirrors the Japan project's carsensor/goo-net method. Median asking price is **459,000 THB** (P25 299,000 / P75 699,000). Inventory is heavily concentrated in **Bangkok** (6,450 ads, 67.5% of all listings), confirming the used-car market is a Bangkok-metro phenomenon. Hybrid vehicles are **8.4%** of listings — high versus most markets, reflecting Thai buyers' hybrid preference.
 
 ## 7. Conclusions
 
@@ -65,7 +65,7 @@ The Kaidee inventory snapshot (9,575 ads) is the high-volume layer that mirrors 
 3. **Japanese incumbents are defensive.** Toyota/Isuzu/Honda remain large but are losing share to
    Chinese entrants, especially in BEV and compact SUV segments.
 4. **The used-car market is Bangkok-centric and hybrid-heavy**, with a median asking price around
-   469,000 THB.
+   459,000 THB.
 5. **Caveat:** FTI totals and publicitytop brand rankings are independent sources; brand shares here are
    computed *within* the publicitytop ranking, not against the FTI total. Full-year posts on publicitytop
    carry no monthly ranking and are excluded.
